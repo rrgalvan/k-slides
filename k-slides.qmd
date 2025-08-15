@@ -5,84 +5,84 @@ theme: [default, style.scss]
 ---
 
 ## September 11, 1965 {auto-animate=true}
-![](img/11-sep-1965.png){.absolute top=150 left=600 width="400" height="450"}
+![](img/11-sep-1965.png){.absolute top=150 left=320 width="400" height="450"}
 
 ## September 11, 1965 {auto-animate=true}
 ![](img/11-sep-1965.png){.absolute top=0 left=1080 width="120" height="130"}
 
 +------------------------------------------+----------------------------------------------------------------+
-| ![](img/vietnam.jpg){height="250"}       | The US begins direct intervention in the Vietnam War           |
+| ![](img/vietnam.jpg){height="235"}       | The US begins direct intervention in the Vietnam War           |
 +------------------------------------------+----------------------------------------------------------------+
-| ![](img/minifalda.jpg){height="69"}      | Mini-skirt boom in Europe & America                            |
+| ![](img/minifalda.jpg){height="62"}      | Mini-skirt boom in Europe & America                            |
 +------------------------------------------+----------------------------------------------------------------+
-| ![](img/TheBeatles.png){height="69"}     | Top Hits                                                       |
+| ![](img/TheBeatles.png){height="62"}     | Top hits                                                       |
 +------------------------------------------+----------------------------------------------------------------+
-: {tbl-colwidths="[30, 70]"}
+: {tbl-colwidths="[35, 65]"}
 
 
 ## September 11, 1965 {auto-animate=true}
 ![](img/11-sep-1965.png){.absolute top=0 left=1080 width="120" height="130"}
 
 +------------------------------------------+----------------------------------------------------------------+
-| ![](img/vietnam.jpg){height="69"}        | US begins intervention in Vietnam War                          |
+| ![](img/vietnam.jpg){height="62"}        | US begins intervention in Vietnam War                          |
 +------------------------------------------+----------------------------------------------------------------+
-| ![](img/minifalda.jpg){height="250"}     | Mini-skirt boom in Europe & America                            |
+| ![](img/minifalda.jpg){height="340"}     | Mini-skirt boom in Europe & America                            |
 +------------------------------------------+----------------------------------------------------------------+
-| ![](img/TheBeatles.png){height="69"}     | Top Hits                                                       |
+| ![](img/TheBeatles.png){height="62"}     | Top hits                                                       |
 +------------------------------------------+----------------------------------------------------------------+
-: {tbl-colwidths="[30, 70]"}
+: {tbl-colwidths="[35, 65]"}
 
 ## September 11, 1965 {auto-animate=true}
 ![](img/11-sep-1965.png){.absolute top=0 left=1080 width="120" height="130"}
 
 +-----------------------------------------+-----------------------------------------------------------------+
-| ![](img/vietnam.jpg){height="69"}       | US begins intervention in Vietnam War                           | 
+| ![](img/vietnam.jpg){height="62"}       | US begins intervention in Vietnam War                           | 
 +-----------------------------------------+-----------------------------------------------------------------+
-| ![](img/minifalda.jpg){height="69"}     | Mini-skirt boom in Europe & America                             |
+| ![](img/minifalda.jpg){height="62"}     | Mini-skirt boom in Europe & America                             |
 +-----------------------------------------+-----------------------------------------------------------------+
-| Top Hits:                               |                                                                 |
-| ![](img/TheBeatles.png){height="250"}   | - The Beatles<br>&nbsp; – "Help"                                |
+| Top hits:                               |                                                                 |
+| ![](img/TheBeatles.png){height="310"}   | - The Beatles<br>&nbsp;&nbsp; "*Help*"                          |
 +-----------------------------------------+-----------------------------------------------------------------+
-: {tbl-colwidths="[30, 70]"}
-
-## September 11, 1965 {transition="convex"}
-![](img/11-sep-1965.png){.absolute top=0 left=1080 width="120" height="130"}
-
-+--------------------------------------------+------------------------------------------------------------------+
-| ![](img/vietnam.jpg){height="69"}          | US begins intervention in Vietnam War                            | 
-+--------------------------------------------+------------------------------------------------------------------+
-| ![](img/minifalda.jpg){height="69"}        | Mini-skirt boom in Europe & America                              |
-+--------------------------------------------+------------------------------------------------------------------+
-| Top Hits:                                  |                                                                  |
-| ![](img/TheRollingStones.png){height="250"}| - The Rolling Stones<br>&nbsp; – "(I Can’t Get No) Satisfaction" |
-+--------------------------------------------+------------------------------------------------------------------+
-: {tbl-colwidths="[30, 70]"}
-
-## September 11, 1965 {transition="convex"}
-![](img/11-sep-1965.png){.absolute top=0 left=1080 width="120" height="130"}
-
-+----------------------------------------+----------------------------------------------------------------+
-| ![](img/vietnam.jpg){height="69"}      | US begins intervention in Vietnam War                          | 
-+----------------------------------------+----------------------------------------------------------------+
-| ![](img/minifalda.jpg){height="69"}    | Mini-skirt boom in Europe & America                            |
-+----------------------------------------+----------------------------------------------------------------+
-|  Top Hits:                             |                                                                |
-|  ![](img/LosBrincos.png){height="250"} |   - Los Brincos <br>&nbsp; – "Flamenco"                        |
-+----------------------------------------+----------------------------------------------------------------+
-: {tbl-colwidths="[30, 70]"}
+: {tbl-colwidths="[35, 65]"}
 
 ## September 11, 1965 {transition="fade"}
 ![](img/11-sep-1965.png){.absolute top=0 left=1080 width="120" height="130"}
 
-+--------------------------------------------+----------------------------------------------------------------+
-| ![](img/vietnam.jpg){height="69"}          | US begins intervention in Vietnam War                          | 
-+--------------------------------------------+----------------------------------------------------------------+
-| ![](img/minifalda.jpg){height="69"}        | Mini-skirt boom in Europe & America                            |
-+--------------------------------------------+----------------------------------------------------------------+
-|  Top Hits:                                 |                                                                |
-|  ![](img/AntonioMairena.png){height="250"} |   - Antonio Mairena <br>&nbsp; – "Cien años de cante gitano"   |
-+--------------------------------------------+----------------------------------------------------------------+
-: {tbl-colwidths="[30, 70]"}
++--------------------------------------------+-----------------------------------------------------------------------+
+| ![](img/vietnam.jpg){height="62"}          | US begins intervention in Vietnam War                                 | 
++--------------------------------------------+-----------------------------------------------------------------------+
+| ![](img/minifalda.jpg){height="62"}        | Mini-skirt boom in Europe & America                                   |
++--------------------------------------------+-----------------------------------------------------------------------+
+| Top hits:                                  |                                                                       |
+| ![](img/TheRollingStones.png){height="310"}| - The Rolling Stones<br>&nbsp;&nbsp; "*(I Can’t Get No) Satisfaction*"|
++--------------------------------------------+-----------------------------------------------------------------------+
+: {tbl-colwidths="[35, 65]"}
+
+## September 11, 1965 {transition="fade"}
+![](img/11-sep-1965.png){.absolute top=0 left=1080 width="120" height="130"}
+
++----------------------------------------+----------------------------------------------------------------+
+| ![](img/vietnam.jpg){height="62"}      | US begins intervention in Vietnam War                          | 
++----------------------------------------+----------------------------------------------------------------+
+| ![](img/minifalda.jpg){height="62"}    | Mini-skirt boom in Europe & America                            |
++----------------------------------------+----------------------------------------------------------------+
+|  (Spanish!) top hits:                  |                                                                |
+|  ![](img/LosBrincos.png){height="310"} |   - Los Brincos <br>&nbsp;&nbsp; "*Flamenco*"                  |
++----------------------------------------+----------------------------------------------------------------+
+: {tbl-colwidths="[35, 65]"}
+
+## September 11, 1965 {transition="fade"}
+![](img/11-sep-1965.png){.absolute top=0 left=1080 width="120" height="130"}
+
++--------------------------------------------+-----------------------------------------------------------------+
+| ![](img/vietnam.jpg){height="62"}          | US begins intervention in Vietnam War                           | 
++--------------------------------------------+-----------------------------------------------------------------+
+| ![](img/minifalda.jpg){height="62"}        | Mini-skirt boom in Europe & America                             |
++--------------------------------------------+-----------------------------------------------------------------+
+|  (Spanish!) top hits:                      |                                                                 |
+|  ![](img/AntonioMairena.png){height="310"} | - Antonio Mairena <br>&nbsp;&nbsp; "*Cien años de cante gitano*"|
++--------------------------------------------+-----------------------------------------------------------------+
+: {tbl-colwidths="[35, 65]"}
 
 
 ## Mairena...{transition="zoom-in fade-out"}
@@ -96,4 +96,17 @@ theme: [default, style.scss]
 ## Mairena... {auto-animate=true}
 What happened 60 years ago?
 ![](img/Mairena2.png){.absolute top=0 left=520 height=850} 
-![](img/11-sep-1965.png){.absolute top=160 left=120 width="350" height="370"}
+![](img/11-sep-1965.png){.absolute top=160 left=145 width="350" height="370"}
+
+## Francisco (Kisko) Guillén González {transition="convex"}
+![](img/cigueña.jpg){fig-align="center"}
+
+## Francisco (Kisko) Guillén González {transition="convex"}
+![](img/k-futbol.png){fig-align="center"}
+
+## Francisco (Kisko) Guillén González {transition="convex"}
+![](img/k-cante.png){fig-align="center"}
+
+## Francisco (Kisko) Guillén González {transition="convex"}
+![](img/k-mates.png){fig-align="center"}
+

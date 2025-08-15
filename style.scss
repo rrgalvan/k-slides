@@ -1,18 +1,24 @@
 /*-- scss:defaults --*/
 
-$body-bg: #191919;
+$body-bg: #292929;
 $body-color: #fff;
 $link-color: #42affa;
+$gradient: linear-gradient(180deg, rgba(#fff, .15), rgba(#fff, 0));
+
 
 /*-- scss:rules --*/
 
 .reveal .slide blockquote {
   border-left: 3px solid $text-muted;
   padding-left: 0.5em;
-  background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 0px solid black;
   vertical-align: middle;
+}
+
+.quote .backgrounds::before {
+    background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 1) 60%, rgba(255,255,255,.5) 70%, rgba(255, 255, 255, 0) 100%),
 }
