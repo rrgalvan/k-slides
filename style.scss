@@ -1,0 +1,18 @@
+/*-- scss:defaults --*/
+
+$body-bg: #191919;
+$body-color: #fff;
+$link-color: #42affa;
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+  background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+table, th, td {
+  border: 1px solid black;
+  vertical-align: middle;
+}
