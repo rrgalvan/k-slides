@@ -101,12 +101,15 @@ What happened 60 years ago?
 ## Francisco (Kisko) Guillén González {transition="convex"}
 ![](img/cigueña.jpg){fig-align="center"}
 
-## Francisco (Kisko) Guillén González {transition="convex"}
+##  {transition="convex"}
+![](img/k-mairena.png){fig-align="center"}
+
+## {transition="convex"}
 ![](img/k-futbol.png){fig-align="center"}
 
-## Francisco (Kisko) Guillén González {transition="convex"}
+##  {transition="convex"}
 ![](img/k-cante.png){fig-align="center"}
 
-## Francisco (Kisko) Guillén González {transition="convex"}
+## {transition="convex"}
 ![](img/k-mates.png){fig-align="center"}
 
