@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
 
-$body-bg: #292929;
+$body-bg: #192519;
 $body-color: #fff;
 $link-color: #42affa;
 $gradient: linear-gradient(180deg, rgba(#fff, .15), rgba(#fff, 0));
@@ -18,7 +18,15 @@ table, th, td {
   vertical-align: middle;
 }
 
-.quote .backgrounds::before {
-    background-image:
-    linear-gradient(to right, rgba(255, 255, 255, 1) 60%, rgba(255,255,255,.5) 70%, rgba(255, 255, 255, 0) 100%),
+.caption {
+  margin: auto;
+  text-align: center;
+  text-color: #fff;
+}
+
+.figure-caption {
+  margin: auto;
+  text-align: center;
+  text-color: green;
+  font-size: 0.5em;
 }
