@@ -1,0 +1,113 @@
+## {auto-animate=true} 
+![](img/fac-mates.jpg){fig-align="center"} 
+
+
+## 1988... {auto-animate=true} 
+:::: {.columns}
+
+::: {.column width="30%"}
+![](img/fac-mates.jpg){fig-align="center"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="65%"}
+ - M.S. & Assistant Professor
+ - ***Start Ph. D.*** thesis, traveling, making friends
+:::
+
+::::
+
+
+##  {transition="slide-in fade-out"} 
+![1990. Premio Maestranza](fotos/EFC-90-PremioMaestranzaEFC.png){width="85%" fig-align="center"}
+
+
+##  {transition="fade"}
+![1990. Premio Maestranza](fotos/MB-90-PremioMaestranzaEFC.png){width="85%" fig-align="center"}
+
+
+##  {transition="fade"}
+![1990. Premio Maestranza](fotos/k-90-PremioMaestranzaEFC.png){width="85%" fig-align="center"}
+
+
+##  {transition="fade"}
+![1990. EHF Oviedo](fotos/90-EHF-Oviedo-TCG-EFC-JCD-Inma.jpeg){width="85%" fig-align="center"}
+
+##  {transition="fade"}
+![1990. EHF Oviedo](fotos/k-90-EHF-Oviedo-TCG-EFC-JCD-Inma.png){width="85%" fig-align="center"}
+
+##  {transition="fade"}
+![1991. Homenaje A. Valle](fotos/91-HomenageValle-Grupo.jpeg){width="85%" fig-align="center"}
+
+##  {transition="fade"}
+![1991. Homenaje A. Valle](fotos/V-91-HomenageValle-Grupo.png){width="85%" fig-align="center"}
+
+##  {transition="fade"}
+![1991. Homenaje A. Valle](fotos/MB-91-HomenageValle-Grupo.png){width="85%" fig-align="center"}
+
+##  {transition="fade"}
+![1991. Homenaje A. Valle](fotos/k-91-HomenageValle-Grupo.png){width="85%" fig-align="center"}
+
+##  {transition="fade"}
+![1991. Homenaje A. Valle](fotos/91-HomenageValle-Chari-Manolo-Ara.jpeg){width="85%" fig-align="center"}
+
+
+## 1988... 1992 {auto-animate=true} 
+:::: {.columns}
+
+::: {.column width="30%"}
+![](img/fac-mates.jpg){fig-align="center"}
+:::
+
+::: {.column width="5%"}  
+:::
+
+::: {.column width="65%"}
+  - M.S. & Assistant Professor
+  - Start Ph. D. thesis, traveling and making friends
+  - 1992: Completion of ***Ph. D. thesis***
+:::
+
+::::
+
+##  {transition="fade"}
+![1992. K-Tesis](fotos/92-Tesis-Chari-Blanca-Manolo.jpeg){width="85%" fig-align="center"}
+
+
+## 1988... 2009 {auto-animate=true} 
+:::: {.columns}
+
+::: {.column width="30%"}
+![](img/fac-mates.jpg){fig-align="center"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="65%"}
+  - M.S. & Assistant Professor
+  - Start Ph. D.
+  - Start traveling and making friends
+  - 1992: Completion of ***Ph. D. thesis***
+  - 2009: Appointment as ***Full Proffessor***
+:::
+
+::::
+
+##  {transition="fade"}
+![2009. K-Cátedra, Rectorado](fotos/09-Catedra-Rectorado.jpg){width="85%" fig-align="center"}
+
+##  {transition="fade"}
+![2009. K-Cátedra, Familia y Amigos](fotos/09-Catedra-MA-Boldrini-Marko-Pedro-Blanca-Chari.jpg){
+.absolute top=0 left=0 width="650" }
+![2009. K-Cátedra, Familia y Amigos](fotos/09-Catedra-Todos.jpg){
+.absolute top=190 left=510 width="590" }
+
+##  {transition="fade"}
+![2009. K-Cátedra, Familia y Amigos](fotos/09-Catedra-MA-Boldrini-Marko-Pedro-Blanca-Chari.jpg){
+.absolute top=0 left=0 width="650" }
+![2009. K-Cátedra, Familia y Amigos](fotos/C-09-Catedra-Todos.png){
+.absolute top=190 left=510 width="590" }
+

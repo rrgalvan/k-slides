@@ -1,0 +1,221 @@
+# Amigos en todo el mundo
+  - España
+  - Francia
+  - Chile
+  - Congreso Phase field
+  - Brasil
+
+## {transition="fade"}
+![1996. EHF Oviedo](fotos/96-EHF-Oviedo-Grupo.jpeg){width="100%" fig-align="center"}
+
+## {transition="fade"}
+![1996. EHF Oviedo](fotos/k-96-EHF-Oviedo-Grupo.png){width="100%" fig-align="center"}
+
+## {transition="fade"}
+![1996. ehf oviedo](fotos/Palmeros-96-EHF-Oviedo-Grupo.png){width="100%" fig-align="center"}
+
+
+## {transition="fade"}
+![](fotos/07-Vivette-Julio-07.JPG){.absolute left=70 top=0  width="100%" }
+
+## {transition="fade"}
+![](fotos/07-Vivette-Julio-07.JPG){.absolute left=70 top=0 width="100%" }
+![](fotos/23-Didier-MA.jpg){.absolute left=260 top=80 width="75%" }
+![](fotos/14-TesisRafa-Pascal.JPG){.absolute left=00 top=0 width=330 }
+
+## {transition="fade"}
+![](fotos/07-Vivette-Julio-07.JPG){.absolute left=70 top=0 width="100%" }
+![](fotos/23-Didier-MA.jpg){.absolute left=260 top=80 width="75%" }
+![](fotos/14-TesisRafa-Pascal.JPG){.absolute left=00 top=0 width=330 }
+![](fotos/24-Nantes-LU-Restaurant.jpg){.absolute left=120 top=0 width="80%" }
+![](fotos/25-junio-Nantes-Mazsen-Sarah.jpeg){.absolute left=10 top=220  width="650" }
+![](fotos/24-Mazen-FGG-Leray.jpg){.absolute left=620 top=350  width="50%"}
+
+
+
+# Students—Friends
+
+
+
+## {transition="fade"}
+
+```{dot}
+//| fig-width: 10
+//| fig-height: 7
+//| fig-align: "left"
+graph K {	
+  rankdir = LR;
+  fontname = "Helvetica,Arial,sans-serif"
+  dpi=70
+  bgcolor = "#192519"
+  node [
+		style = filled
+		color = white
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+  edge [
+    color = white
+  ]
+
+  Kisko [
+    fillcolor = lightgreen
+  ]
+
+  "Rubens Robles Ortega" [fillcolor = "#efefa8"]
+  Kisko -- "Rubens Robles Ortega";
+
+  "Mª Ángeles Rodríguez Bellido" [fillcolor = "#ffd0d0"]
+  Kisko -- "Mª Ángeles Rodríguez Bellido"
+
+  "Francisco P. Marques Lopes" [fillcolor = "#efeff8"]
+  Kisko -- "Francisco P. Marques Lopes";
+
+  "Juan Vicente Gutiérrez Santacreu" [fillcolor = lightblue]
+  Kisko -- "Juan Vicente Gutiérrez Santacreu";
+
+  "M. Victoria Redondo Neble" [fillcolor = lightpink];
+  Kisko -- "M. Victoria Redondo Neble";
+
+  "Giordano Tierra Chica" [fillcolor = "#cfcfef"]
+  Kisko -- "Giordano Tierra Chica";
+
+  "J. Rafael Rodríguez Galván" [fillcolor = "#ffd0a0"]
+  Kisko -- "J. Rafael Rodríguez Galván";
+
+  "Diego A. Rueda Gómez" [fillcolor = "#effff8"]
+  Kisko -- "Diego A. Rueda Gómez"
+  "Mª Ángeles Rodríguez Bellido" -- "Diego A. Rueda Gómez"
+
+  "Antonio Fernández Romero" [fillcolor = lightyellow]
+  Kisko -- "Antonio Fernández Romero";
+
+  "Daniel Acosta Soba" [fillcolor = "#dfefff"];
+  Kisko -- "Daniel Acosta Soba";
+  "J. Rafael Rodríguez Galván" -- "Daniel Acosta Soba";
+}
+```
+
+## {transition="fade"}
+
+```{dot}
+//| fig-width: 10
+//| fig-height: 7
+//| fig-align: "left"
+graph K {	
+  rankdir = LR;
+  fontname = "Helvetica,Arial,sans-serif"
+  dpi=70
+  bgcolor = "#192519"
+  node [
+		style = filled
+		color = gray
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+  edge [
+    color = white
+  ]
+
+  Kisko [
+    fillcolor = lightgreen
+  ]
+
+  "Rubens Robles Ortega" [fillcolor = "gray"]
+  Kisko -- "Rubens Robles Ortega";
+
+  "Mª Ángeles Rodríguez Bellido" [fillcolor = "#ffd0d0"]
+  Kisko -- "Mª Ángeles Rodríguez Bellido"
+
+  "Francisco P. Marques Lopes" [fillcolor = "gray"]
+  Kisko -- "Francisco P. Marques Lopes";
+
+  "Juan Vicente Gutiérrez Santacreu" [fillcolor = gray]
+  Kisko -- "Juan Vicente Gutiérrez Santacreu";
+
+  "M. Victoria Redondo Neble" [fillcolor = gray];
+  Kisko -- "M. Victoria Redondo Neble";
+
+  "Giordano Tierra Chica" [fillcolor = "gray"]
+  Kisko -- "Giordano Tierra Chica";
+
+  "J. Rafael Rodríguez Galván" [fillcolor = "gray"]
+  Kisko -- "J. Rafael Rodríguez Galván";
+
+  "Diego A. Rueda Gómez" [fillcolor = gray]
+  Kisko -- "Diego A. Rueda Gómez"
+  "Mª Ángeles Rodríguez Bellido" -- "Diego A. Rueda Gómez"
+
+  "Antonio Fernández Romero" [fillcolor = gray]
+  Kisko -- "Antonio Fernández Romero";
+
+  "Daniel Acosta Soba" [fillcolor = "gray"];
+  Kisko -- "Daniel Acosta Soba";
+  "J. Rafael Rodríguez Galván" -- "Daniel Acosta Soba";
+}
+```
+
+![](fotos/98-Zaragoza-MA.jpeg){.absolute top=145 left=320 width="700"}
+
+
+## {auto-animate=true, transition="fade"}
+
+::: {.slide data-vertical-align="bottom"}
+```{dot}
+//| fig-width: 10
+//| fig-height: 7
+//| fig-align: "left"
+graph K {	
+  rankdir = LR;
+  fontname = "Helvetica,Arial,sans-serif"
+  dpi=70
+  bgcolor = "#192519"
+  node [
+		style = filled
+		color = gray
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+  edge [
+    color = white
+  ]
+
+  Kisko [
+    fillcolor = lightgreen
+  ]
+
+  "Rubens Robles Ortega" [fillcolor = "gray"]
+  Kisko -- "Rubens Robles Ortega";
+
+  "Mª Ángeles Rodríguez Bellido" [fillcolor = "#ffd0d0"]
+  Kisko -- "Mª Ángeles Rodríguez Bellido"
+
+  "Francisco P. Marques Lopes" [fillcolor = "gray"]
+  Kisko -- "Francisco P. Marques Lopes";
+
+  "Juan Vicente Gutiérrez Santacreu" [fillcolor = gray]
+  Kisko -- "Juan Vicente Gutiérrez Santacreu";
+
+  "M. Victoria Redondo Neble" [fillcolor = gray];
+  Kisko -- "M. Victoria Redondo Neble";
+
+  "Giordano Tierra Chica" [fillcolor = "gray"]
+  Kisko -- "Giordano Tierra Chica";
+
+  "J. Rafael Rodríguez Galván" [fillcolor = "gray"]
+  Kisko -- "J. Rafael Rodríguez Galván";
+
+  "Diego A. Rueda Gómez" [fillcolor = "#effff8"]
+  Kisko -- "Diego A. Rueda Gómez"
+  "Mª Ángeles Rodríguez Bellido" -- "Diego A. Rueda Gómez"
+
+  "Antonio Fernández Romero" [fillcolor = gray]
+  Kisko -- "Antonio Fernández Romero";
+
+  "Daniel Acosta Soba" [fillcolor = "gray"];
+  Kisko -- "Daniel Acosta Soba";
+  "J. Rafael Rodríguez Galván" -- "Daniel Acosta Soba";
+}
+```
+
+![](fotos/18-TesisDiegoRueda-Mazen-Lankeit-MA-Badia.jpg){.absolute top=0em left=580 width="505"}
+
+:::
+
