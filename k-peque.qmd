@@ -108,3 +108,9 @@ What happened 60 years ago?
 ![](img/k-mates.png){fig-align="center"}
 
 
+## {transition="slide"}
+![](fotos/7-joven.jpeg){.absolute left=90 top=0 width="420" 
+  style="transform: rotate(0deg);"}
+![](fotos/8-joven.jpeg){.absolute left=500 top=90 width="400" 
+  style="transform: rotate(-7deg);"}
+

@@ -75,6 +75,8 @@
 ##  {transition="fade"}
 ![1992. K-Tesis](fotos/92-Tesis-Chari-Blanca-Manolo.jpeg){width="85%" fig-align="center"}
 
+##  {transition="fade"}
+![Departamento (toma de posession Pepe Martín)](fotos/02-TomaPosesionPepeMartin.jpeg){width="85%" fig-align="center"}
 
 ## 1988... 2009 {auto-animate=true} 
 :::: {.columns}
@@ -101,13 +103,13 @@
 
 ##  {transition="fade"}
 ![2009. K-Cátedra, Familia y Amigos](fotos/09-Catedra-MA-Boldrini-Marko-Pedro-Blanca-Chari.jpg){
-.absolute top=0 left=0 width="650" }
+.absolute top=0 left=0 width="650" style="transform: rotate(-1deg);"}
 ![2009. K-Cátedra, Familia y Amigos](fotos/09-Catedra-Todos.jpg){
-.absolute top=190 left=510 width="590" }
+.absolute top=190 left=510 width="590" style="transform: rotate(3deg);"}
 
 ##  {transition="fade"}
 ![2009. K-Cátedra, Familia y Amigos](fotos/09-Catedra-MA-Boldrini-Marko-Pedro-Blanca-Chari.jpg){
-.absolute top=0 left=0 width="650" }
+.absolute top=0 left=0 width="650" style="transform: rotate(-1deg);"}
 ![2009. K-Cátedra, Familia y Amigos](fotos/C-09-Catedra-Todos.png){
-.absolute top=190 left=510 width="590" }
+.absolute top=190 left=510 width="590" style="transform: rotate(3deg);"}
 

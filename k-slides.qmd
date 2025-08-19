@@ -1,8 +1,9 @@
 ---
 title: "K-Slides"
-format: revealjs
+format:
+  revealjs
+
 theme: [default, style.scss]
-page-layout: full
 ---
 
 {{< include k-peque.qmd >}}
@@ -13,4 +14,5 @@ page-layout: full
 
 {{< include k-amigos.qmd >}}
 
+{{< include k-students.qmd >}}
 
