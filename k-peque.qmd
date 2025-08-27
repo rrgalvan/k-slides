@@ -109,8 +109,14 @@ What happened 60 years ago?
 
 
 ## {transition="slide"}
-![](fotos/7-joven.jpeg){.absolute left=90 top=0 width="420" 
-  style="transform: rotate(0deg);"}
-![](fotos/8-joven.jpeg){.absolute left=500 top=90 width="400" 
-  style="transform: rotate(-7deg);"}
+
+
+![](fotos/9-fotomaton.jpeg){.absolute left=00 top=0 width="140" 
+  style="transform: rotate(0deg);" }
+
+![](fotos/7-joven.jpeg){.absolute left=210 top=0 width="420" 
+  style="transform: rotate(0deg);".fragment fragment-index="2"}
+
+![](fotos/8-joven.jpeg){.absolute left=620 top=90 width="400" 
+  style="transform: rotate(-7deg);".fragment fragment-index="2"}
 
