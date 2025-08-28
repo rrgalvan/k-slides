@@ -1,0 +1,538 @@
+# Students —and also Friends!
+
+
+## {transition="fade"}
+
+```{dot}
+//| fig-width: 10
+//| fig-height: 7
+//| fig-align: "left"
+graph K {	
+  rankdir = LR;
+  fontname = "Helvetica,Arial,sans-serif"
+  dpi=70
+  bgcolor = "#192119"
+  node [
+		style = filled
+		color = white
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+  edge [
+    color = white
+  ]
+
+  Kisko [
+    fillcolor = lightgreen
+  ]
+
+  "Rubens Robles Ortega" [fillcolor = "#efefa8"]
+  Kisko -- "Rubens Robles Ortega";
+
+  "Mª Ángeles Rodríguez Bellido" [fillcolor = "#ffd0d0" group=1]
+  Kisko -- "Mª Ángeles Rodríguez Bellido"
+
+  "Diego A. Rueda Gómez" [fillcolor = "#effff8"  weight=100 group=1]
+  Kisko -- "Diego A. Rueda Gómez"
+  "Mª Ángeles Rodríguez Bellido" -- "Diego A. Rueda Gómez"
+
+  "Francisco P. Marques Lopes" [fillcolor = "#b8c8e0"]
+  Kisko -- "Francisco P. Marques Lopes";
+
+  "Juan Vicente Gutiérrez Santacreu" [fillcolor = lightblue]
+  Kisko -- "Juan Vicente Gutiérrez Santacreu";
+
+  "M. Victoria Redondo Neble" [fillcolor = "#f0d0ef"];
+  Kisko -- "M. Victoria Redondo Neble";
+
+  "Giordano Tierra Chica" [fillcolor = "#ff7f7f"]
+  Kisko -- "Giordano Tierra Chica";
+
+  "J. Rafael Rodríguez Galván" [fillcolor = "#ffd0a0" group=2]
+  Kisko -- "J. Rafael Rodríguez Galván";
+
+  "Daniel Acosta Soba" [fillcolor = "#a8aa98" group=2];
+  Kisko -- "Daniel Acosta Soba";
+  "J. Rafael Rodríguez Galván" -- "Daniel Acosta Soba";
+
+  "Antonio Fernández Romero" [fillcolor = lightyellow]
+  Kisko -- "Antonio Fernández Romero";
+
+  "André Correa Vianna Filho" [fillcolor = lightpink];
+  Kisko -- "André Correa Vianna Filho";
+
+}
+```
+
+::: {.content-hidden}
+### Mª Ángeles
+:::
+## {transition="fade"}
+
+```{dot}
+//| fig-width: 10
+//| fig-height: 7
+//| fig-align: "left"
+graph K {	
+  rankdir = LR;
+  fontname = "Helvetica,Arial,sans-serif"
+  dpi=70
+  bgcolor = "#192119"
+  node [
+		style = filled
+		color = gray
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+  edge [
+    color = white
+  ]
+
+  Kisko [
+    fillcolor = lightgreen
+  ]
+
+  "Rubens Robles Ortega" [fillcolor = "#202020"]
+  Kisko -- "Rubens Robles Ortega";
+
+  "Mª Ángeles Rodríguez Bellido" [fillcolor = "#ffd0d0" group=1]
+  Kisko -- "Mª Ángeles Rodríguez Bellido"
+
+  "Diego A. Rueda Gómez" [fillcolor = "#202020" group=1]
+  Kisko -- "Diego A. Rueda Gómez"
+  "Mª Ángeles Rodríguez Bellido" -- "Diego A. Rueda Gómez"
+
+  "Francisco P. Marques Lopes" [fillcolor = "#202020"]
+  Kisko -- "Francisco P. Marques Lopes";
+
+  "Juan Vicente Gutiérrez Santacreu" [fillcolor = "#202020"]
+  Kisko -- "Juan Vicente Gutiérrez Santacreu";
+
+  "M. Victoria Redondo Neble" [fillcolor = "#202020"];
+  Kisko -- "M. Victoria Redondo Neble";
+
+  "Giordano Tierra Chica" [fillcolor = "#202020"]
+  Kisko -- "Giordano Tierra Chica";
+
+  "J. Rafael Rodríguez Galván" [fillcolor = "#202020" group=2]
+  Kisko -- "J. Rafael Rodríguez Galván";
+
+  "Daniel Acosta Soba" [fillcolor = "#202020" group=2];
+  Kisko -- "Daniel Acosta Soba";
+  "J. Rafael Rodríguez Galván" -- "Daniel Acosta Soba";
+
+  "Antonio Fernández Romero" [fillcolor = "#202020"]
+  Kisko -- "Antonio Fernández Romero";
+
+  "André Correa Vianna Filho" [fillcolor = "#202020"];
+  Kisko -- "André Correa Vianna Filho";
+}
+```
+
+![](fotos/MA+K_Clermont1.JPG){.absolute top=135 left=390 width="690"
+   style="transform: rotate(-3deg);"}
+
+
+::: {.content-hidden}
+### Juan Vi
+:::
+## {transition="fade"}
+
+```{dot}
+//| fig-width: 10
+//| fig-height: 7
+//| fig-align: "left"
+graph K {	
+  rankdir = LR;
+  fontname = "Helvetica,Arial,sans-serif"
+  dpi=70
+  bgcolor = "#192119"
+  node [
+		style = filled
+		color = gray
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+  edge [
+    color = white
+  ]
+
+  Kisko [
+    fillcolor = lightgreen
+  ]
+
+  "Rubens Robles Ortega" [fillcolor = "#202020"]
+  Kisko -- "Rubens Robles Ortega";
+
+  "Mª Ángeles Rodríguez Bellido" [fillcolor = "#202020" group=1]
+  Kisko -- "Mª Ángeles Rodríguez Bellido"
+
+  "Diego A. Rueda Gómez" [fillcolor = "#202020" group=1]
+  Kisko -- "Diego A. Rueda Gómez"
+  "Mª Ángeles Rodríguez Bellido" -- "Diego A. Rueda Gómez"
+
+  "Francisco P. Marques Lopes" [fillcolor = "#202020"]
+  Kisko -- "Francisco P. Marques Lopes";
+
+  "Juan Vicente Gutiérrez Santacreu" [fillcolor = lightblue]
+  Kisko -- "Juan Vicente Gutiérrez Santacreu";
+
+  "M. Victoria Redondo Neble" [fillcolor = "#202020"];
+  Kisko -- "M. Victoria Redondo Neble";
+
+  "Giordano Tierra Chica" [fillcolor = "#202020"]
+  Kisko -- "Giordano Tierra Chica";
+
+  "J. Rafael Rodríguez Galván" [fillcolor = "#202020" group=2]
+  Kisko -- "J. Rafael Rodríguez Galván";
+
+  "Daniel Acosta Soba" [fillcolor = "#202020" group=2];
+  Kisko -- "Daniel Acosta Soba";
+  "J. Rafael Rodríguez Galván" -- "Daniel Acosta Soba";
+
+  "Antonio Fernández Romero" [fillcolor = "#202020"]
+  Kisko -- "Antonio Fernández Romero";
+
+  "André Correa Vianna Filho" [fillcolor = "#202020"];
+  Kisko -- "André Correa Vianna Filho";
+}
+```
+
+![](fotos/JuanVi+Kisko.jpeg){.absolute top=45 left=560 width="570"
+   style="transform: rotate(4deg);"}
+}
+
+::: {.content-hidden}
+### Vicky
+:::
+## {transition="fade"}
+
+```{dot}
+//| fig-width: 10
+//| fig-height: 7
+//| fig-align: "left"
+graph K {	
+  rankdir = LR;
+  fontname = "Helvetica,Arial,sans-serif"
+  dpi=70
+  bgcolor = "#192119"
+  node [
+		style = filled
+		color = gray
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+  edge [
+    color = white
+  ]
+
+  Kisko [
+    fillcolor = lightgreen
+  ]
+
+  "Rubens Robles Ortega" [fillcolor = "#202020"]
+  Kisko -- "Rubens Robles Ortega";
+
+  "Mª Ángeles Rodríguez Bellido" [fillcolor = "#202020" group=1]
+  Kisko -- "Mª Ángeles Rodríguez Bellido"
+
+  "Diego A. Rueda Gómez" [fillcolor = "#202020" group=1]
+  Kisko -- "Diego A. Rueda Gómez"
+  "Mª Ángeles Rodríguez Bellido" -- "Diego A. Rueda Gómez"
+
+  "Francisco P. Marques Lopes" [fillcolor = "#202020"]
+  Kisko -- "Francisco P. Marques Lopes";
+
+  "Juan Vicente Gutiérrez Santacreu" [fillcolor = "#202020"]
+  Kisko -- "Juan Vicente Gutiérrez Santacreu";
+
+  "M. Victoria Redondo Neble" [fillcolor = "#f0d0ef"];
+  Kisko -- "M. Victoria Redondo Neble";
+
+  "Giordano Tierra Chica" [fillcolor = "#202020"]
+  Kisko -- "Giordano Tierra Chica";
+
+  "J. Rafael Rodríguez Galván" [fillcolor = "#202020" group=2]
+  Kisko -- "J. Rafael Rodríguez Galván";
+
+  "Daniel Acosta Soba" [fillcolor = "#202020" group=2];
+  Kisko -- "Daniel Acosta Soba";
+  "J. Rafael Rodríguez Galván" -- "Daniel Acosta Soba";
+
+  "Antonio Fernández Romero" [fillcolor = "#202020"]
+  Kisko -- "Antonio Fernández Romero";
+
+  "André Correa Vianna Filho" [fillcolor = "#202020"];
+  Kisko -- "André Correa Vianna Filho";
+}
+```
+![](fotos/Vicky+Kisko.jpg){.absolute top=45 left=540 width="580"
+   style="transform: rotate(0deg);"}
+
+
+
+::: {.content-hidden}
+### Giordano
+:::
+
+## {transition="fade"}
+
+```{dot}
+//| fig-width: 10
+//| fig-height: 7
+//| fig-align: "left"
+graph K {	
+  rankdir = LR;
+  fontname = "Helvetica,Arial,sans-serif"
+  dpi=70
+  bgcolor = "#192119"
+  node [
+		style = filled
+		color = gray
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+  edge [
+    color = white
+  ]
+
+  Kisko [
+    fillcolor = lightgreen
+  ]
+
+  "Rubens Robles Ortega" [fillcolor = "#202020"]
+  Kisko -- "Rubens Robles Ortega";
+
+  "Mª Ángeles Rodríguez Bellido" [fillcolor = "#202020" group=1]
+  Kisko -- "Mª Ángeles Rodríguez Bellido"
+
+  "Diego A. Rueda Gómez" [fillcolor = "#202020" group=1]
+  Kisko -- "Diego A. Rueda Gómez"
+  "Mª Ángeles Rodríguez Bellido" -- "Diego A. Rueda Gómez"
+
+  "Francisco P. Marques Lopes" [fillcolor = "#202020"]
+  Kisko -- "Francisco P. Marques Lopes";
+
+  "Juan Vicente Gutiérrez Santacreu" [fillcolor = "#202020"]
+  Kisko -- "Juan Vicente Gutiérrez Santacreu";
+
+  "M. Victoria Redondo Neble" [fillcolor = "#202020"];
+  Kisko -- "M. Victoria Redondo Neble";
+
+  "Giordano Tierra Chica" [fillcolor = "#ff6f6f"]
+  Kisko -- "Giordano Tierra Chica";
+
+  "J. Rafael Rodríguez Galván" [fillcolor = "#202020" group=2]
+  Kisko -- "J. Rafael Rodríguez Galván";
+
+  "Daniel Acosta Soba" [fillcolor = "#202020" group=2];
+  Kisko -- "Daniel Acosta Soba";
+  "J. Rafael Rodríguez Galván" -- "Daniel Acosta Soba";
+
+  "Antonio Fernández Romero" [fillcolor = "#202020"]
+  Kisko -- "Antonio Fernández Romero";
+
+  "André Correa Vianna Filho" [fillcolor = "#202020"];
+  Kisko -- "André Correa Vianna Filho";
+}
+```
+
+![](fotos/18-Philadelphia-NY-Giordano.jpg){.absolute top=20 left=520 width="500"
+   style="transform: rotate(0deg);"}
+
+::: {.content-hidden}
+### Rafa
+:::
+
+## {transition="fade"}
+
+```{dot}
+//| fig-width: 10
+//| fig-height: 7
+//| fig-align: "left"
+graph K {	
+  rankdir = LR;
+  fontname = "Helvetica,Arial,sans-serif"
+  dpi=70
+  bgcolor = "#192119"
+  node [
+		style = filled
+		color = gray
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+  edge [
+    color = white
+  ]
+
+  Kisko [
+    fillcolor = lightgreen
+  ]
+
+  "Rubens Robles Ortega" [fillcolor = "#202020"]
+  Kisko -- "Rubens Robles Ortega";
+
+  "Mª Ángeles Rodríguez Bellido" [fillcolor = "#202020" group=1]
+  Kisko -- "Mª Ángeles Rodríguez Bellido"
+
+  "Diego A. Rueda Gómez" [fillcolor = "#202020" group=1]
+  Kisko -- "Diego A. Rueda Gómez"
+  "Mª Ángeles Rodríguez Bellido" -- "Diego A. Rueda Gómez"
+
+  "Francisco P. Marques Lopes" [fillcolor = "#202020"]
+  Kisko -- "Francisco P. Marques Lopes";
+
+  "Juan Vicente Gutiérrez Santacreu" [fillcolor = "#202020"]
+  Kisko -- "Juan Vicente Gutiérrez Santacreu";
+
+  "M. Victoria Redondo Neble" [fillcolor = "#202020"];
+  Kisko -- "M. Victoria Redondo Neble";
+
+  "Giordano Tierra Chica" [fillcolor = "#202020"]
+  Kisko -- "Giordano Tierra Chica";
+
+  "J. Rafael Rodríguez Galván" [fillcolor = "#ffd0a0" group=2]
+  Kisko -- "J. Rafael Rodríguez Galván";
+
+  "Daniel Acosta Soba" [fillcolor = "#202020" group=2];
+  Kisko -- "Daniel Acosta Soba";
+  "J. Rafael Rodríguez Galván" -- "Daniel Acosta Soba";
+
+  "Antonio Fernández Romero" [fillcolor = "#202020"]
+  Kisko -- "Antonio Fernández Romero";
+
+  "André Correa Vianna Filho" [fillcolor = "#202020"];
+  Kisko -- "André Correa Vianna Filho";
+}
+```
+
+![](fotos/Rafa+Kisko.jpg){.absolute top=90 left=550 width="520"
+   style="transform: rotate(2deg);"}
+
+## {auto-animate=true, transition="fade"}
+
+::: {.slide data-vertical-align="bottom"}
+```{dot}
+//| fig-width: 10
+//| fig-height: 7
+//| fig-align: "left"
+graph K {	
+  rankdir = LR;
+  fontname = "Helvetica,Arial,sans-serif"
+  dpi=70
+  bgcolor = "#192119"
+  node [
+		style = filled
+		color = "#202020"
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+  edge [
+    color = white
+  ]
+
+  Kisko [
+    fillcolor = lightgreen
+  ]
+
+  "Rubens Robles Ortega" [fillcolor = "#202020"]
+  Kisko -- "Rubens Robles Ortega";
+
+  "Mª Ángeles Rodríguez Bellido" [fillcolor = "#303030" group=1]
+  Kisko -- "Mª Ángeles Rodríguez Bellido"
+
+  "Diego A. Rueda Gómez" [fillcolor = "#effff8" group=1]
+  Kisko -- "Diego A. Rueda Gómez"
+  "Mª Ángeles Rodríguez Bellido" -- "Diego A. Rueda Gómez"
+
+  "Francisco P. Marques Lopes" [fillcolor = "#202020"]
+  Kisko -- "Francisco P. Marques Lopes";
+
+  "Juan Vicente Gutiérrez Santacreu" [fillcolor = "#202020"]
+  Kisko -- "Juan Vicente Gutiérrez Santacreu";
+
+  "M. Victoria Redondo Neble" [fillcolor = "#202020"];
+  Kisko -- "M. Victoria Redondo Neble";
+
+  "Giordano Tierra Chica" [fillcolor = "#202020"]
+  Kisko -- "Giordano Tierra Chica";
+
+  "J. Rafael Rodríguez Galván" [fillcolor = "#202020" group=2]
+  Kisko -- "J. Rafael Rodríguez Galván";
+
+  "Daniel Acosta Soba" [fillcolor = "#202020" group=2];
+  Kisko -- "Daniel Acosta Soba";
+  "J. Rafael Rodríguez Galván" -- "Daniel Acosta Soba";
+
+  "Antonio Fernández Romero" [fillcolor = "#202020"]
+  Kisko -- "Antonio Fernández Romero";
+
+  "André Correa Vianna Filho" [fillcolor = "#202020"];
+  Kisko -- "André Correa Vianna Filho";
+}
+```
+
+![](fotos/Diego+Kisko.jpg){.absolute top=150 left=380 height="500" width="430"
+   style="transform: rotate(0deg);"}
+
+:::
+
+## {auto-animate=true, transition="fade"}
+
+::: {.slide data-vertical-align="bottom"}
+```{dot}
+//| fig-width: 10
+//| fig-height: 7
+//| fig-align: "left"
+graph K {	
+  rankdir = LR;
+  fontname = "Helvetica,Arial,sans-serif"
+  dpi=70
+  bgcolor = "#192119"
+  node [
+		style = filled
+		color = "#202020"
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+  edge [
+    color = white
+  ]
+
+  Kisko [
+    fillcolor = lightgreen
+  ]
+
+  "Rubens Robles Ortega" [fillcolor = "#202020"]
+  Kisko -- "Rubens Robles Ortega";
+
+  "Mª Ángeles Rodríguez Bellido" [fillcolor = "#202020" group=1]
+  Kisko -- "Mª Ángeles Rodríguez Bellido"
+
+  "Diego A. Rueda Gómez" [fillcolor = "#202020" group=1]
+  Kisko -- "Diego A. Rueda Gómez"
+  "Mª Ángeles Rodríguez Bellido" -- "Diego A. Rueda Gómez"
+
+  "Francisco P. Marques Lopes" [fillcolor = "#202020"]
+  Kisko -- "Francisco P. Marques Lopes";
+
+  "Juan Vicente Gutiérrez Santacreu" [fillcolor = "#202020"]
+  Kisko -- "Juan Vicente Gutiérrez Santacreu";
+
+  "M. Victoria Redondo Neble" [fillcolor = "#202020"];
+  Kisko -- "M. Victoria Redondo Neble";
+
+  "Giordano Tierra Chica" [fillcolor = "#202020"]
+  Kisko -- "Giordano Tierra Chica";
+
+  "J. Rafael Rodríguez Galván" [fillcolor = "#303030" group=2]
+  Kisko -- "J. Rafael Rodríguez Galván";
+
+  "Daniel Acosta Soba" [fillcolor = "#a8aa98" group=2];
+  Kisko -- "Daniel Acosta Soba";
+  "J. Rafael Rodríguez Galván" -- "Daniel Acosta Soba";
+
+  "Antonio Fernández Romero" [fillcolor = "#202020"]
+  Kisko -- "Antonio Fernández Romero";
+
+  "André Correa Vianna Filho" [fillcolor = "#202020"];
+  Kisko -- "André Correa Vianna Filho";
+}
+```
+
+![](fotos/Dani+Kisko.jpeg){.absolute top=0em left=450 width="580"
+   style="transform: rotate(-2deg);"}
+
+:::

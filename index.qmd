@@ -14,5 +14,7 @@ theme: [default, style.scss]
 
 {{< include k-amigos.qmd >}}
 
-{{< include k-students.qmd >}}
+{{< include k-aficiones.qmd >}}
+
+{{< include k-estudiantes.qmd >}}
 

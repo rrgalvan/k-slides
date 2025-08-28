@@ -1,0 +1,15 @@
+# Passions, interests, hobbies
+
+
+## {auto-animate=true }
+
+![](fotos/Ateneo_de_Mairena.jpeg){fig-align="center"}
+
+## {auto-animate=true }
+
+![](fotos/Ateneo_de_Mairena.jpeg){.absolute width="10%"}
+![](fotos/Ateneo-envejecen_nuestras_defensas.jpeg){.absolute left=120 width="85%"}
+![](fotos/Ateneo-La_Naranja.jpeg){.absolute left=0 top=350 width="62%"
+  style="transform: rotate(-3deg);" .fragment fragment-index="2"}
+![](fotos/Ateneo-Conferencia_Mairena_Investiga.jpeg){.absolute left=800 top=0 height="100%"
+ .fragment fragment-index="2"}
