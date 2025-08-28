@@ -1,11 +1,24 @@
 # Passions, interests, hobbies
 
+## Nature
 
-## {auto-animate=true }
+![](fotos/18-campo.jpeg){.absolute left=400 top=00 width="72%"}
+![](fotos/17-campo.jpeg){.absolute left=0 top=250 width="52%"}
+
+:::{.fragment fragment-index="2"}
+![Ronquillo (MA, DR, Daniel Moraes, K)](fotos/23-Ronquillo-MA-DanielMoraes-DiegoRueda.jpg){fig-align="center"
+ width="70%"}
+:::
+
+## Music, Signing and Fun
+
+![](fotos/13-bombo.jpeg){fig-align="center"}
+
+## Mairena Athenaeum {auto-animate=true }
 
 ![](fotos/Ateneo_de_Mairena.jpeg){fig-align="center"}
 
-## {auto-animate=true }
+## Mairena Athenaeum {auto-animate=true }
 
 ![](fotos/Ateneo_de_Mairena.jpeg){.absolute width="10%"}
 ![](fotos/Ateneo-envejecen_nuestras_defensas.jpeg){.absolute left=120 width="85%"}

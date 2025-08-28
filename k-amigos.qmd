@@ -36,8 +36,8 @@
 1998. Feria de Mairena + baile en Zaragoza
 :::
 
-## {transition="fade"}
-![2009. Intensive School on Complex Fluids](fotos/09-Congreso-Grupo.jpg){width="100%" }
+## 2009. Intensive School on Complex Fluids {transition="fade"}
+![](fotos/09-Congreso-Grupo.jpg){width="100%" }
 
 ## {transition="fade"}
 ![2009. Intensive School on Complex Fluids](fotos/k-09-Congreso-Grupo.jpg){width="100%" }
