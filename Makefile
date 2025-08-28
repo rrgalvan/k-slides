@@ -1,5 +1,5 @@
-render: k-slides.qmd
-	quarto render k-slides.qmd
+render: index.qmd
+	quarto render index.qmd
 
-preview: k-slides.qmd
-	quarto preview k-slides.qmd
+preview: index.qmd
+	quarto preview index.qmd
