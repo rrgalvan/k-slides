@@ -1,0 +1,2320 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-e4463eda816fa5448903f820a20dc32f.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.39">
+
+  <title>K-Slides</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-12022e9210b568b21e5d26f9bd442cd9.css">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-dark">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">K-Slides</h1>
+
+<div class="quarto-title-authors">
+</div>
+
+</section>
+<section id="september-11-1965" class="slide level2" data-transition="slide" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">September 11, 1965</h2>
+<p><img data-src="img/11-sep-1965.png" class="absolute" style="top: 150px; left: 320px; width: 400px; height: 450px; "></p>
+</section>
+<section id="september-11-1965-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">September 11, 1965</h2>
+<p><img data-src="img/11-sep-1965.png" class="absolute" style="top: 0px; left: 1080px; width: 120px; height: 130px; "></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 65%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img data-src="img/vietnam.jpg" height="235"></td>
+<td>The US begins direct intervention in the Vietnam War</td>
+</tr>
+<tr class="even">
+<td><img data-src="img/minifalda.jpg" height="62"></td>
+<td>Mini-skirt boom in Europe &amp; America</td>
+</tr>
+<tr class="odd">
+<td><img data-src="img/TheBeatles.png" height="62"></td>
+<td>Top hits</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="september-11-1965-2" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">September 11, 1965</h2>
+<p><img data-src="img/11-sep-1965.png" class="absolute" style="top: 0px; left: 1080px; width: 120px; height: 130px; "></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 65%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img data-src="img/vietnam.jpg" height="62"></td>
+<td>US begins intervention in Vietnam War</td>
+</tr>
+<tr class="even">
+<td><img data-src="img/minifalda.jpg" height="340"></td>
+<td>Mini-skirt boom in Europe &amp; America</td>
+</tr>
+<tr class="odd">
+<td><img data-src="img/TheBeatles.png" height="62"></td>
+<td>Top hits</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="september-11-1965-3" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">September 11, 1965</h2>
+<p><img data-src="img/11-sep-1965.png" class="absolute" style="top: 0px; left: 1080px; width: 120px; height: 130px; "></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 65%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img data-src="img/vietnam.jpg" height="62"></td>
+<td>US begins intervention in Vietnam War</td>
+</tr>
+<tr class="even">
+<td><img data-src="img/minifalda.jpg" height="62"></td>
+<td>Mini-skirt boom in Europe &amp; America</td>
+</tr>
+<tr class="odd">
+<td>Top hits: <img data-src="img/TheBeatles.png" height="310"></td>
+<td><ul>
+<li>The Beatles<br>&nbsp;&nbsp; “<em>Help</em>”</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="september-11-1965-4" class="slide level2" data-transition="fade">
+<h2>September 11, 1965</h2>
+<p><img data-src="img/11-sep-1965.png" class="absolute" style="top: 0px; left: 1080px; width: 120px; height: 130px; "></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 65%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img data-src="img/vietnam.jpg" height="62"></td>
+<td>US begins intervention in Vietnam War</td>
+</tr>
+<tr class="even">
+<td><img data-src="img/minifalda.jpg" height="62"></td>
+<td>Mini-skirt boom in Europe &amp; America</td>
+</tr>
+<tr class="odd">
+<td>Top hits: <img data-src="img/TheRollingStones.png" height="310"></td>
+<td><ul>
+<li>The Rolling Stones<br>&nbsp;&nbsp; “<em>(I Can’t Get No) Satisfaction</em>”</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="september-11-1965-5" class="slide level2" data-transition="fade">
+<h2>September 11, 1965</h2>
+<p><img data-src="img/11-sep-1965.png" class="absolute" style="top: 0px; left: 1080px; width: 120px; height: 130px; "></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 65%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img data-src="img/vietnam.jpg" height="62"></td>
+<td>US begins intervention in Vietnam War</td>
+</tr>
+<tr class="even">
+<td><img data-src="img/minifalda.jpg" height="62"></td>
+<td>Mini-skirt boom in Europe &amp; America</td>
+</tr>
+<tr class="odd">
+<td>(Spanish!) top hits: <img data-src="img/LosBrincos.png" height="310"></td>
+<td><ul>
+<li>Los Brincos <br>&nbsp;&nbsp; “<em>Flamenco</em>”</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="september-11-1965-6" class="slide level2" data-transition="fade">
+<h2>September 11, 1965</h2>
+<p><img data-src="img/11-sep-1965.png" class="absolute" style="top: 0px; left: 1080px; width: 120px; height: 130px; "></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 65%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img data-src="img/vietnam.jpg" height="62"></td>
+<td>US begins intervention in Vietnam War</td>
+</tr>
+<tr class="even">
+<td><img data-src="img/minifalda.jpg" height="62"></td>
+<td>Mini-skirt boom in Europe &amp; America</td>
+</tr>
+<tr class="odd">
+<td>(Spanish!) top hits: <img data-src="img/AntonioMairena.png" height="310"></td>
+<td><ul>
+<li>Antonio Mairena <br>&nbsp;&nbsp; “<em>Cien años de cante gitano</em>”</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="mairena" class="slide level2" data-transition="zoom-in fade-out">
+<h2>Mairena…</h2>
+<p><img data-src="img/Mairena1.png" class="absolute" style="top: 0px; left: 400px; height: 100%; "> <img data-src="img/11-sep-1965.png" class="absolute" style="top: 0px; left: 1080px; width: 120px; height: 130px; "></p>
+</section>
+<section id="mairena-1" class="slide level2" data-transition="zoom-in fade-out" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Mairena…</h2>
+<p><img data-src="img/Mairena2.png" class="absolute" style="top: 0px; left: 400px; height: 100%; "> <img data-src="img/11-sep-1965.png" class="absolute" style="top: 0px; left: 1080px; width: 120px; height: 130px; "></p>
+</section>
+<section id="mairena-2" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Mairena…</h2>
+<p>What happened 60 years ago? <img data-src="img/Mairena2.png" class="absolute" style="top: 0px; left: 520px; height: 850px; "> <img data-src="img/11-sep-1965.png" class="absolute" style="top: 160px; left: 145px; width: 350px; height: 370px; "></p>
+</section>
+<section id="francisco-kisko-guillén-gonzález" class="slide level2" data-transition="convex">
+<h2>Francisco (Kisko) Guillén González</h2>
+
+<img data-src="img/cigueña.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="section" class="slide level2" data-transition="slide">
+<h2></h2>
+
+<img data-src="img/k-mairena.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="section-1" class="slide level2" data-transition="slide">
+<h2></h2>
+
+<img data-src="img/k-futbol.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="section-2" class="slide level2" data-transition="slide">
+<h2></h2>
+
+<img data-src="img/k-cante.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="section-3" class="slide level2" data-transition="slide">
+<h2></h2>
+
+<img data-src="img/k-mates.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="section-4" class="slide level2" data-transition="slide">
+<h2></h2>
+<p><img data-src="fotos/9-fotomaton.jpeg" class="absolute" style="transform: rotate(0deg);top: 0px; left: 0px; width: 140px; " data-auto-animate="true"></p>
+<p><img data-src="fotos/7-joven.jpeg" class="absolute fragment" style="transform: rotate(0deg);top: 0px; left: 210px; width: 420px; " data-fragment-index="2" data-auto-animate="true"></p>
+<p><img data-src="fotos/8-joven.jpeg" class="absolute fragment" style="transform: rotate(-7deg);top: 90px; left: 620px; width: 400px; " data-fragment-index="2" data-auto-animate="true"></p>
+</section>
+<section id="section-5" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+
+<img data-src="img/fac-mates.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="section-6" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">1988…</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/fac-mates.jpg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:65%;">
+<ul>
+<li>M.S. &amp; Assistant Professor</li>
+<li><strong><em>Start Ph. D.</em></strong> thesis, traveling, making friends</li>
+</ul>
+</div></div>
+</section>
+<section id="section-7" class="slide level2" data-transition="slide-in fade-out">
+<h2></h2>
+
+<img data-src="fotos/EFC-90-PremioMaestranzaEFC.png" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">1990. Premio Maestranza</p></section>
+<section id="section-8" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/MB-90-PremioMaestranzaEFC.png" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">1990. Premio Maestranza</p></section>
+<section id="section-9" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/k-90-PremioMaestranzaEFC.png" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">1990. Premio Maestranza</p></section>
+<section id="section-10" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/90-EHF-Oviedo-TCG-EFC-JCD-Inma.jpeg" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">1990. EHF Oviedo</p></section>
+<section id="section-11" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/k-90-EHF-Oviedo-TCG-EFC-JCD-Inma.png" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">1990. EHF Oviedo</p></section>
+<section id="section-12" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/91-HomenageValle-Grupo.jpeg" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">1991. Homenaje A. Valle</p></section>
+<section id="section-13" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/V-91-HomenageValle-Grupo.png" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">1991. Homenaje A. Valle</p></section>
+<section id="section-14" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/MB-91-HomenageValle-Grupo.png" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">1991. Homenaje A. Valle</p></section>
+<section id="section-15" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/k-91-HomenageValle-Grupo.png" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">1991. Homenaje A. Valle</p></section>
+<section id="section-16" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/91-HomenageValle-Chari-Manolo-Ara.jpeg" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">1991. Homenaje A. Valle</p></section>
+<section id="section-17" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">1988… 1992</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/fac-mates.jpg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:65%;">
+<ul>
+<li>M.S. &amp; Assistant Professor</li>
+<li>Start Ph. D. thesis, traveling and making friends</li>
+<li>1992: Completion of <strong><em>Ph. D. thesis</em></strong></li>
+</ul>
+</div></div>
+</section>
+<section id="section-18" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/92-Tesis-Chari-Blanca-Manolo.jpeg" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">1992. Ph. D. Thesis</p></section>
+<section id="section-19" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/02-TomaPosesionPepeMartin.jpeg" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">Joining the EDAN Department</p></section>
+<section id="section-20" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/k-02-TomaPosesionPepeMartin.jpeg" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">Joining the EDAN Department</p></section>
+<section id="section-21" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">1988… 2009</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/fac-mates.jpg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:65%;">
+<ul>
+<li>M.S. &amp; Assistant Professor</li>
+<li>Start Ph. D.</li>
+<li>Start traveling and making friends</li>
+<li>1992: Completion of <strong><em>Ph. D. thesis</em></strong></li>
+<li>2009: Appointment as <strong><em>Full Proffessor</em></strong></li>
+</ul>
+</div></div>
+</section>
+<section id="section-22" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/09-Catedra-Rectorado.jpg" style="width:85.0%" class="r-stretch quarto-figure-center"><p class="caption">2009. Full-Proffesorship (Cátedra), at Rectorate</p></section>
+<section id="section-23" class="slide level2" data-transition="fade">
+<h2></h2>
+<div class="absolute" style="transform: rotate(-1deg);top: 0px; left: 0px; width: 680px; ">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="fotos/09-Catedra-MA-Boldrini-Marko-Pedro-Blanca-Chari.jpg"></p>
+<figcaption>2009. Full-Proffesorship, with friends</figcaption>
+</figure>
+</div>
+</div>
+<p><img data-src="fotos/09-Catedra-Todos.jpg" class="absolute" style="transform: rotate(3deg);top: 190px; left: 510px; width: 590px; "></p>
+</section>
+<section id="section-24" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<p><img data-src="fotos/09-Catedra-MA-Boldrini-Marko-Pedro-Blanca-Chari.jpg" class="absolute" style="transform: rotate(-1deg);top: 0px; left: 0px; width: 650px; " alt="2009. K-Cátedra, Familia y Amigos"> <img data-src="fotos/C-09-Catedra-Todos.png" class="absolute" style="transform: rotate(3deg);top: 190px; left: 510px; width: 590px; " alt="2009. K-Cátedra, Familia y Amigos"></p>
+</section>
+<section>
+<section id="familia" class="title-slide slide level1 center">
+<h1>Familia</h1>
+
+</section>
+<section id="section-25" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/09-FadoChari-Gabriela.png" class="r-stretch quarto-figure-center"><p class="caption">2009. Gabriela, Cori, Julio, Chari, K, Alejandro</p></section>
+<section id="section-26" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/08-Parque-Boldrini-Bicicleta.JPG" class="r-stretch quarto-figure-center"><p class="caption">2008. José Luiz Boldrini, Sevilla</p></section>
+<section id="section-27" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/17-Chambery-Didier-Caterine.jpg" class="r-stretch quarto-figure-center"><p class="caption">2017. Didier Bresch &amp; Caterine</p></section></section>
+<section>
+<section id="excelence-as-a-researcher-and-as-a-friend" class="title-slide slide level1 center">
+<h1>Excelence as a Researcher and as a Friend</h1>
+
+</section>
+<section id="section-28" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/96-EHF-Oviedo-Grupo.jpeg" style="width:100.0%" class="r-stretch quarto-figure-center"><p class="caption">1996. EHF Oviedo</p></section>
+<section id="section-29" class="slide level2" data-tkansition="fade">
+<h2></h2>
+
+<img data-src="fotos/k-96-EHF-Oviedo-Grupo.png" style="width:100.0%" class="r-stretch quarto-figure-center"><p class="caption">1996. EHF Oviedo</p></section>
+<section id="section-30" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/Palmeros-96-EHF-Oviedo-Grupo.png" style="width:100.0%" class="r-stretch quarto-figure-center"><p class="caption">1996. EHF Oviedo</p></section>
+<section id="section-31" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+
+<img data-src="fotos/98-CharlaOceanografia-Facultad.jpeg" style="width:100.0%" class="r-stretch quarto-figure-center"><p class="caption">1998. Seville, Talk on Oceanography</p></section>
+<section id="section-32" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[ 20, 80 ], [100]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="fotos/98-CharlaOceanografia-Facultad.jpeg" style="width:100.0%" data-left="0" data-top="0"></p>
+<figcaption>1998. Talk on Oceanography</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 80.0%;justify-content: flex-start;">
+<p><img data-src="fotos/98-Feria-Manolo-Chari-Rafa-Vicky.jpeg" style="transform: rotate(-8deg);;width:80.0%" data-left="0" data-top="0"> <img data-src="fotos/98-Zaragoza-MA.jpeg" class="absolute" style="transform: rotate(5deg);top: 310px; left: 330px; width: 50%; "></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<ol start="1998" type="1">
+<li>Feria de Mairena + baile en Zaragoza</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="section-33" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[ 20, 80 ], [100]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="fotos/98-CharlaOceanografia-Facultad.jpeg" style="width:100.0%" data-left="0" data-top="0"></p>
+<figcaption>1998. Talk on Oceanography</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 80.0%;justify-content: flex-start;">
+<p><img data-src="fotos/k-98-Feria-Manolo-Chari-Rafa-Vicky.png" style="transform: rotate(-8deg);;width:80.0%" data-left="0" data-top="0"> <img data-src="fotos/k-98-Zaragoza-MA.jpeg" class="absolute" style="transform: rotate(5deg);top: 310px; left: 330px; width: 50%; "></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<ol start="1998" type="1">
+<li>Feria de Mairena + baile en Zaragoza</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="intensive-school-on-complex-fluids" class="slide level2" data-transition="fade">
+<h2>2009. Intensive School on Complex Fluids</h2>
+
+<img data-src="fotos/09-Congreso-Grupo.jpg" style="width:100.0%" class="r-stretch"></section>
+<section id="section-34" class="slide level2" data-transition="fade">
+<h2></h2>
+
+<img data-src="fotos/k-09-Congreso-Grupo.jpg" style="width:100.0%" class="r-stretch quarto-figure-center"><p class="caption">2009. Intensive School on Complex Fluids</p></section>
+<section id="section-35" class="slide level2" data-transition="fade">
+<h2></h2>
+<div class="absolute" style="transform: rotate(0deg);top: 15px; left: 120px; width: 86%; ">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="fotos/09-Congreso-Alcazar-Chun-Andreas-Rafa-Vicky-Walkinton.jpg"></p>
+<figcaption>Social events in Seville: visit to Alcázar, Cathedrall Ceiling…</figcaption>
+</figure>
+</div>
+</div>
+<p><img data-src="fotos/09-Congreso-Alcazar-Giordano-Vicky.JPG" class="absolute" style="transform: rotate(-1deg);top: 0px; left: 0px; width: 510px; "> <img data-src="fotos/09-Congreso-TechosCatedral-Rafa-Vicky.JPG" class="absolute" style="transform: rotate(4deg);top: 20px; left: 740px; width: 370px; "></p>
+</section>
+<section id="section-36" class="slide level2" data-transition="fade">
+<h2></h2>
+<div class="absolute" style="transform: rotate(-0deg);top: 110px; left: 0px; width: 64%; ">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="fotos/09-Barco-Rafa-Vicky-Blanca.JPG"></p>
+<figcaption>… and cocktail on the river</figcaption>
+</figure>
+</div>
+</div>
+<p><img data-src="fotos/09-Barco-Actuacion2.JPG" class="absolute" style="transform: rotate(5deg);top: 50px; left: 390px; width: 76%; "></p>
+</section>
+<section id="section-37" class="slide level2" data-transition="fade">
+<h2></h2>
+<p><img data-src="fotos/07-Vivette-Julio-07.JPG" class="absolute" style="top: 0px; left: 70px; width: 100%; "></p>
+</section>
+<section id="section-38" class="slide level2" data-transition="fade">
+<h2></h2>
+<p><img data-src="fotos/07-Vivette-Julio-07.JPG" class="absolute" style="top: 0px; left: 70px; width: 100%; "> <img data-src="fotos/23-Didier-MA.jpg" class="absolute" style="transform: rotate(-8deg);top: 80px; left: 260px; width: 75%; "> <img data-src="fotos/14-TesisRafa-Pascal.JPG" class="absolute" style="transform: rotate(3deg);top: 0px; left: 0px; width: 330px; "></p>
+</section>
+<section id="section-39" class="slide level2" data-transition="fade">
+<h2></h2>
+<p><img data-src="fotos/07-Vivette-Julio-07.JPG" class="absolute" style="top: 0px; left: 70px; width: 100%; "> <img data-src="fotos/23-Didier-MA.jpg" class="absolute" style="transform: rotate(-8deg);top: 80px; left: 260px; width: 75%; "> <img data-src="fotos/14-TesisRafa-Pascal.JPG" class="absolute" style="transform: rotate(3deg);top: 0px; left: 0px; width: 330px; "> <img data-src="fotos/24-Nantes-LU-Restaurant.jpg" class="absolute" style="top: 0px; left: 120px; width: 80%; "> <img data-src="fotos/25-junio-Nantes-Mazsen-Sarah.jpeg" class="absolute" style="transform: rotate(-10deg);top: 220px; left: 10px; width: 650px; "> <img data-src="fotos/24-Mazen-FGG-Leray.jpg" class="absolute" style="transform: rotate(2deg);top: 350px; left: 620px; width: 50%; "></p>
+</section>
+<section id="section-40" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<div class="absolute" style="transform: rotate(2deg);top: 0px; left: 0px; width: 66%; ">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="fotos/09-Cordoba-Boldrini-MA.jpg"></p>
+<figcaption>2009. Cordoba, José Luiz Boldrini</figcaption>
+</figure>
+</div>
+</div>
+<div class="absolute" style="transform: rotate(-2deg);top: 10%; left: 50%; width: 66%; ">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="fotos/09-Ronquillo-Marko-MA.jpg"></p>
+<figcaption>2009. Ronquillo, Marko A. Rojas Medar</figcaption>
+</figure>
+</div>
+</div>
+</section></section>
+<section>
+<section id="passions-interests-hobbies" class="title-slide slide level1 center">
+<h1>Passions, interests, hobbies</h1>
+
+</section>
+<section id="nature" class="slide level2">
+<h2>Nature</h2>
+<p><img data-src="fotos/18-campo.jpeg" class="absolute" style="top: 0px; left: 400px; width: 72%; "> <img data-src="fotos/17-campo.jpeg" class="absolute" style="top: 250px; left: 0px; width: 52%; "></p>
+<div class="fragment" data-fragment-index="2">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="fotos/23-Ronquillo-MA-DanielMoraes-DiegoRueda.jpg" style="width:70.0%"></p>
+<figcaption>Ronquillo (MA, DR, Daniel Moraes, K)</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="music-signing-and-fun" class="slide level2">
+<h2>Music, Signing and Fun</h2>
+
+<img data-src="fotos/13-bombo.jpeg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="mairena-athenaeum" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Mairena Athenaeum</h2>
+
+<img data-src="fotos/Ateneo_de_Mairena.jpeg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="mairena-athenaeum-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Mairena Athenaeum</h2>
+<p><img data-src="fotos/Ateneo_de_Mairena.jpeg" class="absolute" style="width: 10%; "> <img data-src="fotos/Ateneo-envejecen_nuestras_defensas.jpeg" class="absolute" style="left: 120px; width: 85%; "> <img data-src="fotos/Ateneo-La_Naranja.jpeg" class="absolute fragment" style="transform: rotate(-3deg);top: 350px; left: 0px; width: 62%; " data-fragment-index="2"> <img data-src="fotos/Ateneo-Conferencia_Mairena_Investiga.jpeg" class="absolute fragment" style="top: 0px; left: 800px; height: 100%; " data-fragment-index="2"></p>
+</section></section>
+<section>
+<section id="students-and-also-friends" class="title-slide slide level1 center">
+<h1>Students —and also Friends!</h1>
+
+</section>
+<section id="section-41" class="slide level2" data-transition="fade">
+<h2></h2>
+<div class="cell" data-fig-width="10" data-fig-height="7" data-layout-align="left">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="672" viewbox="0.00 0.00 638.03 552.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto 0">
+<g id="graph0" class="graph" transform="scale(0.972222 0.972222) rotate(0) translate(4 548)">
+<title>K</title>
+<polygon fill="#192119" stroke="transparent" points="-4,4 -4,-548 634.03,-548 634.03,4 -4,4"></polygon>
+<!-- Kisko -->
+<g id="node1" class="node">
+<title>Kisko</title>
+<ellipse fill="lightgreen" stroke="white" cx="34.11" cy="-272" rx="34.22" ry="18"></ellipse>
+<text text-anchor="middle" x="34.11" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Kisko</text>
+</g>
+<!-- Rubens Robles Ortega -->
+<g id="node2" class="node">
+<title>Rubens Robles Ortega</title>
+<ellipse fill="#efefa8" stroke="white" cx="245.3" cy="-526" rx="97.87" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-521.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Rubens Robles Ortega</text>
+</g>
+<!-- Kisko&#45;&#45;Rubens Robles Ortega -->
+<g id="edge1" class="edge">
+<title>Kisko--Rubens Robles Ortega</title>
+<path fill="none" stroke="white" d="M34.78,-290.29C35.06,-333.64 42.21,-443.19 104.22,-499 116.92,-510.43 132.95,-517.66 149.59,-522.13"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido -->
+<g id="node3" class="node">
+<title>Mª Ángeles Rodríguez Bellido</title>
+<ellipse fill="#ffd0d0" stroke="white" cx="245.3" cy="-472" rx="132" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mª Ángeles Rodríguez Bellido</text>
+</g>
+<!-- Kisko&#45;&#45;Mª Ángeles Rodríguez Bellido -->
+<g id="edge2" class="edge">
+<title>Kisko--Mª Ángeles Rodríguez Bellido</title>
+<path fill="none" stroke="white" d="M37.13,-290.1C41.99,-324.76 57.64,-400.57 104.22,-440 115.07,-449.19 128.03,-455.87 141.63,-460.71"></path>
+</g>
+<!-- Diego A. Rueda Gómez -->
+<g id="node4" class="node">
+<title>Diego A. Rueda Gómez</title>
+<ellipse fill="#effff8" stroke="white" cx="526.2" cy="-472" rx="103.65" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Diego A. Rueda Gómez</text>
+</g>
+<!-- Kisko&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge3" class="edge">
+<title>Kisko--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M38.7,-289.94C45.67,-319.64 64.02,-378.56 104.22,-407 155.86,-443.54 323.95,-434.73 386.38,-445 410,-448.88 435.76,-453.73 458.61,-458.23"></path>
+</g>
+<!-- Francisco P. Marques Lopes -->
+<g id="node5" class="node">
+<title>Francisco P. Marques Lopes</title>
+<ellipse fill="#b8c8e0" stroke="white" cx="245.3" cy="-380" rx="120.99" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-375.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Francisco P. Marques Lopes</text>
+</g>
+<!-- Kisko&#45;&#45;Francisco P. Marques Lopes -->
+<g id="edge5" class="edge">
+<title>Kisko--Francisco P. Marques Lopes</title>
+<path fill="none" stroke="white" d="M44.9,-289.27C56.52,-308.08 77.7,-337.56 104.22,-353 116.84,-360.35 131.09,-365.75 145.54,-369.71"></path>
+</g>
+<!-- Juan Vicente Gutiérrez Santacreu -->
+<g id="node6" class="node">
+<title>Juan Vicente Gutiérrez Santacreu</title>
+<ellipse fill="lightblue" stroke="white" cx="245.3" cy="-326" rx="141.16" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-321.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Juan Vicente Gutiérrez Santacreu</text>
+</g>
+<!-- Kisko&#45;&#45;Juan Vicente Gutiérrez Santacreu -->
+<g id="edge6" class="edge">
+<title>Kisko--Juan Vicente Gutiérrez Santacreu</title>
+<path fill="none" stroke="white" d="M60.97,-283.4C73.79,-288.71 89.62,-294.78 104.22,-299 121.35,-303.95 139.92,-308.26 157.78,-311.88"></path>
+</g>
+<!-- M. Victoria Redondo Neble -->
+<g id="node7" class="node">
+<title>M. Victoria Redondo Neble</title>
+<ellipse fill="#f0d0ef" stroke="white" cx="245.3" cy="-272" rx="118.69" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">M. Victoria Redondo Neble</text>
+</g>
+<!-- Kisko&#45;&#45;M. Victoria Redondo Neble -->
+<g id="edge7" class="edge">
+<title>Kisko--M. Victoria Redondo Neble</title>
+<path fill="none" stroke="white" d="M68.26,-272C84.38,-272 104.85,-272 126.09,-272"></path>
+</g>
+<!-- Giordano Tierra Chica -->
+<g id="node8" class="node">
+<title>Giordano Tierra Chica</title>
+<ellipse fill="#ff7f7f" stroke="white" cx="245.3" cy="-218" rx="98.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-213.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Giordano Tierra Chica</text>
+</g>
+<!-- Kisko&#45;&#45;Giordano Tierra Chica -->
+<g id="edge8" class="edge">
+<title>Kisko--Giordano Tierra Chica</title>
+<path fill="none" stroke="white" d="M60.97,-260.6C73.79,-255.29 89.62,-249.22 104.22,-245 125.39,-238.88 148.78,-233.75 170.27,-229.66"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván -->
+<g id="node9" class="node">
+<title>J. Rafael Rodríguez Galván</title>
+<ellipse fill="#ffd0a0" stroke="white" cx="245.3" cy="-164" rx="120.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">J. Rafael Rodríguez Galván</text>
+</g>
+<!-- Kisko&#45;&#45;J. Rafael Rodríguez Galván -->
+<g id="edge9" class="edge">
+<title>Kisko--J. Rafael Rodríguez Galván</title>
+<path fill="none" stroke="white" d="M44.9,-254.73C56.52,-235.92 77.7,-206.44 104.22,-191 116.95,-183.58 131.33,-178.16 145.91,-174.19"></path>
+</g>
+<!-- Daniel Acosta Soba -->
+<g id="node10" class="node">
+<title>Daniel Acosta Soba</title>
+<ellipse fill="#a8aa98" stroke="white" cx="526.2" cy="-164" rx="87.97" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Daniel Acosta Soba</text>
+</g>
+<!-- Kisko&#45;&#45;Daniel Acosta Soba -->
+<g id="edge10" class="edge">
+<title>Kisko--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M38.21,-253.95C44.51,-223.53 61.99,-162.82 104.22,-137 226.68,-62.11 408.4,-117.72 486.85,-147.9"></path>
+</g>
+<!-- Antonio Fernández Romero -->
+<g id="node11" class="node">
+<title>Antonio Fernández Romero</title>
+<ellipse fill="lightyellow" stroke="white" cx="245.3" cy="-72" rx="119.28" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-67.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Antonio Fernández Romero</text>
+</g>
+<!-- Kisko&#45;&#45;Antonio Fernández Romero -->
+<g id="edge12" class="edge">
+<title>Kisko--Antonio Fernández Romero</title>
+<path fill="none" stroke="white" d="M37.13,-253.9C41.99,-219.24 57.64,-143.43 104.22,-104 116.12,-93.93 130.55,-86.86 145.58,-81.94"></path>
+</g>
+<!-- André Correa Vianna Filho -->
+<g id="node12" class="node">
+<title>André Correa Vianna Filho</title>
+<ellipse fill="lightpink" stroke="white" cx="245.3" cy="-18" rx="117.52" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-13.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">André Correa Vianna Filho</text>
+</g>
+<!-- Kisko&#45;&#45;André Correa Vianna Filho -->
+<g id="edge13" class="edge">
+<title>Kisko--André Correa Vianna Filho</title>
+<path fill="none" stroke="white" d="M34.78,-253.71C35.06,-210.36 42.21,-100.81 104.22,-45 113.97,-36.22 125.69,-29.92 138.15,-25.44"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge4" class="edge">
+<title>Mª Ángeles Rodríguez Bellido--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M377.58,-472C392.56,-472 407.66,-472 422.2,-472"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván&#45;&#45;Daniel Acosta Soba -->
+<g id="edge11" class="edge">
+<title>J. Rafael Rodríguez Galván--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M365.79,-164C390.19,-164 415.41,-164 438.4,-164"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="section-42" class="slide level2" data-transition="fade">
+<h2></h2>
+<div class="cell" data-fig-width="10" data-fig-height="7" data-layout-align="left">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="672" viewbox="0.00 0.00 638.03 552.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto 0">
+<g id="graph0" class="graph" transform="scale(0.972222 0.972222) rotate(0) translate(4 548)">
+<title>K</title>
+<polygon fill="#192119" stroke="transparent" points="-4,4 -4,-548 634.03,-548 634.03,4 -4,4"></polygon>
+<!-- Kisko -->
+<g id="node1" class="node">
+<title>Kisko</title>
+<ellipse fill="lightgreen" stroke="gray" cx="34.11" cy="-272" rx="34.22" ry="18"></ellipse>
+<text text-anchor="middle" x="34.11" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Kisko</text>
+</g>
+<!-- Rubens Robles Ortega -->
+<g id="node2" class="node">
+<title>Rubens Robles Ortega</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-526" rx="97.87" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-521.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Rubens Robles Ortega</text>
+</g>
+<!-- Kisko&#45;&#45;Rubens Robles Ortega -->
+<g id="edge1" class="edge">
+<title>Kisko--Rubens Robles Ortega</title>
+<path fill="none" stroke="white" d="M34.78,-290.29C35.06,-333.64 42.21,-443.19 104.22,-499 116.92,-510.43 132.95,-517.66 149.59,-522.13"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido -->
+<g id="node3" class="node">
+<title>Mª Ángeles Rodríguez Bellido</title>
+<ellipse fill="#ffd0d0" stroke="gray" cx="245.3" cy="-472" rx="132" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mª Ángeles Rodríguez Bellido</text>
+</g>
+<!-- Kisko&#45;&#45;Mª Ángeles Rodríguez Bellido -->
+<g id="edge2" class="edge">
+<title>Kisko--Mª Ángeles Rodríguez Bellido</title>
+<path fill="none" stroke="white" d="M37.13,-290.1C41.99,-324.76 57.64,-400.57 104.22,-440 115.07,-449.19 128.03,-455.87 141.63,-460.71"></path>
+</g>
+<!-- Diego A. Rueda Gómez -->
+<g id="node4" class="node">
+<title>Diego A. Rueda Gómez</title>
+<ellipse fill="#202020" stroke="gray" cx="526.2" cy="-472" rx="103.65" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Diego A. Rueda Gómez</text>
+</g>
+<!-- Kisko&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge3" class="edge">
+<title>Kisko--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M38.7,-289.94C45.67,-319.64 64.02,-378.56 104.22,-407 155.86,-443.54 323.95,-434.73 386.38,-445 410,-448.88 435.76,-453.73 458.61,-458.23"></path>
+</g>
+<!-- Francisco P. Marques Lopes -->
+<g id="node5" class="node">
+<title>Francisco P. Marques Lopes</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-380" rx="120.99" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-375.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Francisco P. Marques Lopes</text>
+</g>
+<!-- Kisko&#45;&#45;Francisco P. Marques Lopes -->
+<g id="edge5" class="edge">
+<title>Kisko--Francisco P. Marques Lopes</title>
+<path fill="none" stroke="white" d="M44.9,-289.27C56.52,-308.08 77.7,-337.56 104.22,-353 116.84,-360.35 131.09,-365.75 145.54,-369.71"></path>
+</g>
+<!-- Juan Vicente Gutiérrez Santacreu -->
+<g id="node6" class="node">
+<title>Juan Vicente Gutiérrez Santacreu</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-326" rx="141.16" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-321.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Juan Vicente Gutiérrez Santacreu</text>
+</g>
+<!-- Kisko&#45;&#45;Juan Vicente Gutiérrez Santacreu -->
+<g id="edge6" class="edge">
+<title>Kisko--Juan Vicente Gutiérrez Santacreu</title>
+<path fill="none" stroke="white" d="M60.97,-283.4C73.79,-288.71 89.62,-294.78 104.22,-299 121.35,-303.95 139.92,-308.26 157.78,-311.88"></path>
+</g>
+<!-- M. Victoria Redondo Neble -->
+<g id="node7" class="node">
+<title>M. Victoria Redondo Neble</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-272" rx="118.69" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">M. Victoria Redondo Neble</text>
+</g>
+<!-- Kisko&#45;&#45;M. Victoria Redondo Neble -->
+<g id="edge7" class="edge">
+<title>Kisko--M. Victoria Redondo Neble</title>
+<path fill="none" stroke="white" d="M68.26,-272C84.38,-272 104.85,-272 126.09,-272"></path>
+</g>
+<!-- Giordano Tierra Chica -->
+<g id="node8" class="node">
+<title>Giordano Tierra Chica</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-218" rx="98.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-213.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Giordano Tierra Chica</text>
+</g>
+<!-- Kisko&#45;&#45;Giordano Tierra Chica -->
+<g id="edge8" class="edge">
+<title>Kisko--Giordano Tierra Chica</title>
+<path fill="none" stroke="white" d="M60.97,-260.6C73.79,-255.29 89.62,-249.22 104.22,-245 125.39,-238.88 148.78,-233.75 170.27,-229.66"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván -->
+<g id="node9" class="node">
+<title>J. Rafael Rodríguez Galván</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-164" rx="120.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">J. Rafael Rodríguez Galván</text>
+</g>
+<!-- Kisko&#45;&#45;J. Rafael Rodríguez Galván -->
+<g id="edge9" class="edge">
+<title>Kisko--J. Rafael Rodríguez Galván</title>
+<path fill="none" stroke="white" d="M44.9,-254.73C56.52,-235.92 77.7,-206.44 104.22,-191 116.95,-183.58 131.33,-178.16 145.91,-174.19"></path>
+</g>
+<!-- Daniel Acosta Soba -->
+<g id="node10" class="node">
+<title>Daniel Acosta Soba</title>
+<ellipse fill="#202020" stroke="gray" cx="526.2" cy="-164" rx="87.97" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Daniel Acosta Soba</text>
+</g>
+<!-- Kisko&#45;&#45;Daniel Acosta Soba -->
+<g id="edge10" class="edge">
+<title>Kisko--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M38.21,-253.95C44.51,-223.53 61.99,-162.82 104.22,-137 226.68,-62.11 408.4,-117.72 486.85,-147.9"></path>
+</g>
+<!-- Antonio Fernández Romero -->
+<g id="node11" class="node">
+<title>Antonio Fernández Romero</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-72" rx="119.28" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-67.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Antonio Fernández Romero</text>
+</g>
+<!-- Kisko&#45;&#45;Antonio Fernández Romero -->
+<g id="edge12" class="edge">
+<title>Kisko--Antonio Fernández Romero</title>
+<path fill="none" stroke="white" d="M37.13,-253.9C41.99,-219.24 57.64,-143.43 104.22,-104 116.12,-93.93 130.55,-86.86 145.58,-81.94"></path>
+</g>
+<!-- André Correa Vianna Filho -->
+<g id="node12" class="node">
+<title>André Correa Vianna Filho</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-18" rx="117.52" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-13.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">André Correa Vianna Filho</text>
+</g>
+<!-- Kisko&#45;&#45;André Correa Vianna Filho -->
+<g id="edge13" class="edge">
+<title>Kisko--André Correa Vianna Filho</title>
+<path fill="none" stroke="white" d="M34.78,-253.71C35.06,-210.36 42.21,-100.81 104.22,-45 113.97,-36.22 125.69,-29.92 138.15,-25.44"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge4" class="edge">
+<title>Mª Ángeles Rodríguez Bellido--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M377.58,-472C392.56,-472 407.66,-472 422.2,-472"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván&#45;&#45;Daniel Acosta Soba -->
+<g id="edge11" class="edge">
+<title>J. Rafael Rodríguez Galván--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M365.79,-164C390.19,-164 415.41,-164 438.4,-164"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><img data-src="fotos/MA+K_Clermont1.JPG" class="absolute" style="transform: rotate(-3deg);top: 135px; left: 390px; width: 690px; "></p>
+</section>
+<section id="section-43" class="slide level2" data-transition="fade">
+<h2></h2>
+<div class="cell" data-fig-width="10" data-fig-height="7" data-layout-align="left">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="672" viewbox="0.00 0.00 638.03 552.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto 0">
+<g id="graph0" class="graph" transform="scale(0.972222 0.972222) rotate(0) translate(4 548)">
+<title>K</title>
+<polygon fill="#192119" stroke="transparent" points="-4,4 -4,-548 634.03,-548 634.03,4 -4,4"></polygon>
+<!-- Kisko -->
+<g id="node1" class="node">
+<title>Kisko</title>
+<ellipse fill="lightgreen" stroke="gray" cx="34.11" cy="-272" rx="34.22" ry="18"></ellipse>
+<text text-anchor="middle" x="34.11" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Kisko</text>
+</g>
+<!-- Rubens Robles Ortega -->
+<g id="node2" class="node">
+<title>Rubens Robles Ortega</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-526" rx="97.87" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-521.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Rubens Robles Ortega</text>
+</g>
+<!-- Kisko&#45;&#45;Rubens Robles Ortega -->
+<g id="edge1" class="edge">
+<title>Kisko--Rubens Robles Ortega</title>
+<path fill="none" stroke="white" d="M34.78,-290.29C35.06,-333.64 42.21,-443.19 104.22,-499 116.92,-510.43 132.95,-517.66 149.59,-522.13"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido -->
+<g id="node3" class="node">
+<title>Mª Ángeles Rodríguez Bellido</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-472" rx="132" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mª Ángeles Rodríguez Bellido</text>
+</g>
+<!-- Kisko&#45;&#45;Mª Ángeles Rodríguez Bellido -->
+<g id="edge2" class="edge">
+<title>Kisko--Mª Ángeles Rodríguez Bellido</title>
+<path fill="none" stroke="white" d="M37.13,-290.1C41.99,-324.76 57.64,-400.57 104.22,-440 115.07,-449.19 128.03,-455.87 141.63,-460.71"></path>
+</g>
+<!-- Diego A. Rueda Gómez -->
+<g id="node4" class="node">
+<title>Diego A. Rueda Gómez</title>
+<ellipse fill="#202020" stroke="gray" cx="526.2" cy="-472" rx="103.65" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Diego A. Rueda Gómez</text>
+</g>
+<!-- Kisko&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge3" class="edge">
+<title>Kisko--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M38.7,-289.94C45.67,-319.64 64.02,-378.56 104.22,-407 155.86,-443.54 323.95,-434.73 386.38,-445 410,-448.88 435.76,-453.73 458.61,-458.23"></path>
+</g>
+<!-- Francisco P. Marques Lopes -->
+<g id="node5" class="node">
+<title>Francisco P. Marques Lopes</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-380" rx="120.99" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-375.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Francisco P. Marques Lopes</text>
+</g>
+<!-- Kisko&#45;&#45;Francisco P. Marques Lopes -->
+<g id="edge5" class="edge">
+<title>Kisko--Francisco P. Marques Lopes</title>
+<path fill="none" stroke="white" d="M44.9,-289.27C56.52,-308.08 77.7,-337.56 104.22,-353 116.84,-360.35 131.09,-365.75 145.54,-369.71"></path>
+</g>
+<!-- Juan Vicente Gutiérrez Santacreu -->
+<g id="node6" class="node">
+<title>Juan Vicente Gutiérrez Santacreu</title>
+<ellipse fill="lightblue" stroke="gray" cx="245.3" cy="-326" rx="141.16" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-321.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Juan Vicente Gutiérrez Santacreu</text>
+</g>
+<!-- Kisko&#45;&#45;Juan Vicente Gutiérrez Santacreu -->
+<g id="edge6" class="edge">
+<title>Kisko--Juan Vicente Gutiérrez Santacreu</title>
+<path fill="none" stroke="white" d="M60.97,-283.4C73.79,-288.71 89.62,-294.78 104.22,-299 121.35,-303.95 139.92,-308.26 157.78,-311.88"></path>
+</g>
+<!-- M. Victoria Redondo Neble -->
+<g id="node7" class="node">
+<title>M. Victoria Redondo Neble</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-272" rx="118.69" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">M. Victoria Redondo Neble</text>
+</g>
+<!-- Kisko&#45;&#45;M. Victoria Redondo Neble -->
+<g id="edge7" class="edge">
+<title>Kisko--M. Victoria Redondo Neble</title>
+<path fill="none" stroke="white" d="M68.26,-272C84.38,-272 104.85,-272 126.09,-272"></path>
+</g>
+<!-- Giordano Tierra Chica -->
+<g id="node8" class="node">
+<title>Giordano Tierra Chica</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-218" rx="98.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-213.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Giordano Tierra Chica</text>
+</g>
+<!-- Kisko&#45;&#45;Giordano Tierra Chica -->
+<g id="edge8" class="edge">
+<title>Kisko--Giordano Tierra Chica</title>
+<path fill="none" stroke="white" d="M60.97,-260.6C73.79,-255.29 89.62,-249.22 104.22,-245 125.39,-238.88 148.78,-233.75 170.27,-229.66"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván -->
+<g id="node9" class="node">
+<title>J. Rafael Rodríguez Galván</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-164" rx="120.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">J. Rafael Rodríguez Galván</text>
+</g>
+<!-- Kisko&#45;&#45;J. Rafael Rodríguez Galván -->
+<g id="edge9" class="edge">
+<title>Kisko--J. Rafael Rodríguez Galván</title>
+<path fill="none" stroke="white" d="M44.9,-254.73C56.52,-235.92 77.7,-206.44 104.22,-191 116.95,-183.58 131.33,-178.16 145.91,-174.19"></path>
+</g>
+<!-- Daniel Acosta Soba -->
+<g id="node10" class="node">
+<title>Daniel Acosta Soba</title>
+<ellipse fill="#202020" stroke="gray" cx="526.2" cy="-164" rx="87.97" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Daniel Acosta Soba</text>
+</g>
+<!-- Kisko&#45;&#45;Daniel Acosta Soba -->
+<g id="edge10" class="edge">
+<title>Kisko--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M38.21,-253.95C44.51,-223.53 61.99,-162.82 104.22,-137 226.68,-62.11 408.4,-117.72 486.85,-147.9"></path>
+</g>
+<!-- Antonio Fernández Romero -->
+<g id="node11" class="node">
+<title>Antonio Fernández Romero</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-72" rx="119.28" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-67.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Antonio Fernández Romero</text>
+</g>
+<!-- Kisko&#45;&#45;Antonio Fernández Romero -->
+<g id="edge12" class="edge">
+<title>Kisko--Antonio Fernández Romero</title>
+<path fill="none" stroke="white" d="M37.13,-253.9C41.99,-219.24 57.64,-143.43 104.22,-104 116.12,-93.93 130.55,-86.86 145.58,-81.94"></path>
+</g>
+<!-- André Correa Vianna Filho -->
+<g id="node12" class="node">
+<title>André Correa Vianna Filho</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-18" rx="117.52" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-13.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">André Correa Vianna Filho</text>
+</g>
+<!-- Kisko&#45;&#45;André Correa Vianna Filho -->
+<g id="edge13" class="edge">
+<title>Kisko--André Correa Vianna Filho</title>
+<path fill="none" stroke="white" d="M34.78,-253.71C35.06,-210.36 42.21,-100.81 104.22,-45 113.97,-36.22 125.69,-29.92 138.15,-25.44"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge4" class="edge">
+<title>Mª Ángeles Rodríguez Bellido--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M377.58,-472C392.56,-472 407.66,-472 422.2,-472"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván&#45;&#45;Daniel Acosta Soba -->
+<g id="edge11" class="edge">
+<title>J. Rafael Rodríguez Galván--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M365.79,-164C390.19,-164 415.41,-164 438.4,-164"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><img data-src="fotos/JuanVi+Kisko.jpeg" class="absolute" style="transform: rotate(4deg);top: 45px; left: 560px; width: 570px; "> }</p>
+</section>
+<section id="section-44" class="slide level2" data-transition="fade">
+<h2></h2>
+<div class="cell" data-fig-width="10" data-fig-height="7" data-layout-align="left">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="672" viewbox="0.00 0.00 638.03 552.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto 0">
+<g id="graph0" class="graph" transform="scale(0.972222 0.972222) rotate(0) translate(4 548)">
+<title>K</title>
+<polygon fill="#192119" stroke="transparent" points="-4,4 -4,-548 634.03,-548 634.03,4 -4,4"></polygon>
+<!-- Kisko -->
+<g id="node1" class="node">
+<title>Kisko</title>
+<ellipse fill="lightgreen" stroke="gray" cx="34.11" cy="-272" rx="34.22" ry="18"></ellipse>
+<text text-anchor="middle" x="34.11" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Kisko</text>
+</g>
+<!-- Rubens Robles Ortega -->
+<g id="node2" class="node">
+<title>Rubens Robles Ortega</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-526" rx="97.87" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-521.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Rubens Robles Ortega</text>
+</g>
+<!-- Kisko&#45;&#45;Rubens Robles Ortega -->
+<g id="edge1" class="edge">
+<title>Kisko--Rubens Robles Ortega</title>
+<path fill="none" stroke="white" d="M34.78,-290.29C35.06,-333.64 42.21,-443.19 104.22,-499 116.92,-510.43 132.95,-517.66 149.59,-522.13"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido -->
+<g id="node3" class="node">
+<title>Mª Ángeles Rodríguez Bellido</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-472" rx="132" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mª Ángeles Rodríguez Bellido</text>
+</g>
+<!-- Kisko&#45;&#45;Mª Ángeles Rodríguez Bellido -->
+<g id="edge2" class="edge">
+<title>Kisko--Mª Ángeles Rodríguez Bellido</title>
+<path fill="none" stroke="white" d="M37.13,-290.1C41.99,-324.76 57.64,-400.57 104.22,-440 115.07,-449.19 128.03,-455.87 141.63,-460.71"></path>
+</g>
+<!-- Diego A. Rueda Gómez -->
+<g id="node4" class="node">
+<title>Diego A. Rueda Gómez</title>
+<ellipse fill="#202020" stroke="gray" cx="526.2" cy="-472" rx="103.65" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Diego A. Rueda Gómez</text>
+</g>
+<!-- Kisko&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge3" class="edge">
+<title>Kisko--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M38.7,-289.94C45.67,-319.64 64.02,-378.56 104.22,-407 155.86,-443.54 323.95,-434.73 386.38,-445 410,-448.88 435.76,-453.73 458.61,-458.23"></path>
+</g>
+<!-- Francisco P. Marques Lopes -->
+<g id="node5" class="node">
+<title>Francisco P. Marques Lopes</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-380" rx="120.99" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-375.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Francisco P. Marques Lopes</text>
+</g>
+<!-- Kisko&#45;&#45;Francisco P. Marques Lopes -->
+<g id="edge5" class="edge">
+<title>Kisko--Francisco P. Marques Lopes</title>
+<path fill="none" stroke="white" d="M44.9,-289.27C56.52,-308.08 77.7,-337.56 104.22,-353 116.84,-360.35 131.09,-365.75 145.54,-369.71"></path>
+</g>
+<!-- Juan Vicente Gutiérrez Santacreu -->
+<g id="node6" class="node">
+<title>Juan Vicente Gutiérrez Santacreu</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-326" rx="141.16" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-321.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Juan Vicente Gutiérrez Santacreu</text>
+</g>
+<!-- Kisko&#45;&#45;Juan Vicente Gutiérrez Santacreu -->
+<g id="edge6" class="edge">
+<title>Kisko--Juan Vicente Gutiérrez Santacreu</title>
+<path fill="none" stroke="white" d="M60.97,-283.4C73.79,-288.71 89.62,-294.78 104.22,-299 121.35,-303.95 139.92,-308.26 157.78,-311.88"></path>
+</g>
+<!-- M. Victoria Redondo Neble -->
+<g id="node7" class="node">
+<title>M. Victoria Redondo Neble</title>
+<ellipse fill="#f0d0ef" stroke="gray" cx="245.3" cy="-272" rx="118.69" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">M. Victoria Redondo Neble</text>
+</g>
+<!-- Kisko&#45;&#45;M. Victoria Redondo Neble -->
+<g id="edge7" class="edge">
+<title>Kisko--M. Victoria Redondo Neble</title>
+<path fill="none" stroke="white" d="M68.26,-272C84.38,-272 104.85,-272 126.09,-272"></path>
+</g>
+<!-- Giordano Tierra Chica -->
+<g id="node8" class="node">
+<title>Giordano Tierra Chica</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-218" rx="98.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-213.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Giordano Tierra Chica</text>
+</g>
+<!-- Kisko&#45;&#45;Giordano Tierra Chica -->
+<g id="edge8" class="edge">
+<title>Kisko--Giordano Tierra Chica</title>
+<path fill="none" stroke="white" d="M60.97,-260.6C73.79,-255.29 89.62,-249.22 104.22,-245 125.39,-238.88 148.78,-233.75 170.27,-229.66"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván -->
+<g id="node9" class="node">
+<title>J. Rafael Rodríguez Galván</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-164" rx="120.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">J. Rafael Rodríguez Galván</text>
+</g>
+<!-- Kisko&#45;&#45;J. Rafael Rodríguez Galván -->
+<g id="edge9" class="edge">
+<title>Kisko--J. Rafael Rodríguez Galván</title>
+<path fill="none" stroke="white" d="M44.9,-254.73C56.52,-235.92 77.7,-206.44 104.22,-191 116.95,-183.58 131.33,-178.16 145.91,-174.19"></path>
+</g>
+<!-- Daniel Acosta Soba -->
+<g id="node10" class="node">
+<title>Daniel Acosta Soba</title>
+<ellipse fill="#202020" stroke="gray" cx="526.2" cy="-164" rx="87.97" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Daniel Acosta Soba</text>
+</g>
+<!-- Kisko&#45;&#45;Daniel Acosta Soba -->
+<g id="edge10" class="edge">
+<title>Kisko--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M38.21,-253.95C44.51,-223.53 61.99,-162.82 104.22,-137 226.68,-62.11 408.4,-117.72 486.85,-147.9"></path>
+</g>
+<!-- Antonio Fernández Romero -->
+<g id="node11" class="node">
+<title>Antonio Fernández Romero</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-72" rx="119.28" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-67.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Antonio Fernández Romero</text>
+</g>
+<!-- Kisko&#45;&#45;Antonio Fernández Romero -->
+<g id="edge12" class="edge">
+<title>Kisko--Antonio Fernández Romero</title>
+<path fill="none" stroke="white" d="M37.13,-253.9C41.99,-219.24 57.64,-143.43 104.22,-104 116.12,-93.93 130.55,-86.86 145.58,-81.94"></path>
+</g>
+<!-- André Correa Vianna Filho -->
+<g id="node12" class="node">
+<title>André Correa Vianna Filho</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-18" rx="117.52" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-13.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">André Correa Vianna Filho</text>
+</g>
+<!-- Kisko&#45;&#45;André Correa Vianna Filho -->
+<g id="edge13" class="edge">
+<title>Kisko--André Correa Vianna Filho</title>
+<path fill="none" stroke="white" d="M34.78,-253.71C35.06,-210.36 42.21,-100.81 104.22,-45 113.97,-36.22 125.69,-29.92 138.15,-25.44"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge4" class="edge">
+<title>Mª Ángeles Rodríguez Bellido--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M377.58,-472C392.56,-472 407.66,-472 422.2,-472"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván&#45;&#45;Daniel Acosta Soba -->
+<g id="edge11" class="edge">
+<title>J. Rafael Rodríguez Galván--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M365.79,-164C390.19,-164 415.41,-164 438.4,-164"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><img data-src="fotos/Vicky+Kisko.jpg" class="absolute" style="transform: rotate(0deg);top: 45px; left: 540px; width: 580px; "></p>
+</section>
+<section id="section-45" class="slide level2" data-transition="fade">
+<h2></h2>
+<div class="cell" data-fig-width="10" data-fig-height="7" data-layout-align="left">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="672" viewbox="0.00 0.00 638.03 552.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto 0">
+<g id="graph0" class="graph" transform="scale(0.972222 0.972222) rotate(0) translate(4 548)">
+<title>K</title>
+<polygon fill="#192119" stroke="transparent" points="-4,4 -4,-548 634.03,-548 634.03,4 -4,4"></polygon>
+<!-- Kisko -->
+<g id="node1" class="node">
+<title>Kisko</title>
+<ellipse fill="lightgreen" stroke="gray" cx="34.11" cy="-272" rx="34.22" ry="18"></ellipse>
+<text text-anchor="middle" x="34.11" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Kisko</text>
+</g>
+<!-- Rubens Robles Ortega -->
+<g id="node2" class="node">
+<title>Rubens Robles Ortega</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-526" rx="97.87" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-521.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Rubens Robles Ortega</text>
+</g>
+<!-- Kisko&#45;&#45;Rubens Robles Ortega -->
+<g id="edge1" class="edge">
+<title>Kisko--Rubens Robles Ortega</title>
+<path fill="none" stroke="white" d="M34.78,-290.29C35.06,-333.64 42.21,-443.19 104.22,-499 116.92,-510.43 132.95,-517.66 149.59,-522.13"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido -->
+<g id="node3" class="node">
+<title>Mª Ángeles Rodríguez Bellido</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-472" rx="132" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mª Ángeles Rodríguez Bellido</text>
+</g>
+<!-- Kisko&#45;&#45;Mª Ángeles Rodríguez Bellido -->
+<g id="edge2" class="edge">
+<title>Kisko--Mª Ángeles Rodríguez Bellido</title>
+<path fill="none" stroke="white" d="M37.13,-290.1C41.99,-324.76 57.64,-400.57 104.22,-440 115.07,-449.19 128.03,-455.87 141.63,-460.71"></path>
+</g>
+<!-- Diego A. Rueda Gómez -->
+<g id="node4" class="node">
+<title>Diego A. Rueda Gómez</title>
+<ellipse fill="#202020" stroke="gray" cx="526.2" cy="-472" rx="103.65" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Diego A. Rueda Gómez</text>
+</g>
+<!-- Kisko&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge3" class="edge">
+<title>Kisko--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M38.7,-289.94C45.67,-319.64 64.02,-378.56 104.22,-407 155.86,-443.54 323.95,-434.73 386.38,-445 410,-448.88 435.76,-453.73 458.61,-458.23"></path>
+</g>
+<!-- Francisco P. Marques Lopes -->
+<g id="node5" class="node">
+<title>Francisco P. Marques Lopes</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-380" rx="120.99" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-375.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Francisco P. Marques Lopes</text>
+</g>
+<!-- Kisko&#45;&#45;Francisco P. Marques Lopes -->
+<g id="edge5" class="edge">
+<title>Kisko--Francisco P. Marques Lopes</title>
+<path fill="none" stroke="white" d="M44.9,-289.27C56.52,-308.08 77.7,-337.56 104.22,-353 116.84,-360.35 131.09,-365.75 145.54,-369.71"></path>
+</g>
+<!-- Juan Vicente Gutiérrez Santacreu -->
+<g id="node6" class="node">
+<title>Juan Vicente Gutiérrez Santacreu</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-326" rx="141.16" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-321.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Juan Vicente Gutiérrez Santacreu</text>
+</g>
+<!-- Kisko&#45;&#45;Juan Vicente Gutiérrez Santacreu -->
+<g id="edge6" class="edge">
+<title>Kisko--Juan Vicente Gutiérrez Santacreu</title>
+<path fill="none" stroke="white" d="M60.97,-283.4C73.79,-288.71 89.62,-294.78 104.22,-299 121.35,-303.95 139.92,-308.26 157.78,-311.88"></path>
+</g>
+<!-- M. Victoria Redondo Neble -->
+<g id="node7" class="node">
+<title>M. Victoria Redondo Neble</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-272" rx="118.69" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">M. Victoria Redondo Neble</text>
+</g>
+<!-- Kisko&#45;&#45;M. Victoria Redondo Neble -->
+<g id="edge7" class="edge">
+<title>Kisko--M. Victoria Redondo Neble</title>
+<path fill="none" stroke="white" d="M68.26,-272C84.38,-272 104.85,-272 126.09,-272"></path>
+</g>
+<!-- Giordano Tierra Chica -->
+<g id="node8" class="node">
+<title>Giordano Tierra Chica</title>
+<ellipse fill="#ff6f6f" stroke="gray" cx="245.3" cy="-218" rx="98.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-213.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Giordano Tierra Chica</text>
+</g>
+<!-- Kisko&#45;&#45;Giordano Tierra Chica -->
+<g id="edge8" class="edge">
+<title>Kisko--Giordano Tierra Chica</title>
+<path fill="none" stroke="white" d="M60.97,-260.6C73.79,-255.29 89.62,-249.22 104.22,-245 125.39,-238.88 148.78,-233.75 170.27,-229.66"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván -->
+<g id="node9" class="node">
+<title>J. Rafael Rodríguez Galván</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-164" rx="120.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">J. Rafael Rodríguez Galván</text>
+</g>
+<!-- Kisko&#45;&#45;J. Rafael Rodríguez Galván -->
+<g id="edge9" class="edge">
+<title>Kisko--J. Rafael Rodríguez Galván</title>
+<path fill="none" stroke="white" d="M44.9,-254.73C56.52,-235.92 77.7,-206.44 104.22,-191 116.95,-183.58 131.33,-178.16 145.91,-174.19"></path>
+</g>
+<!-- Daniel Acosta Soba -->
+<g id="node10" class="node">
+<title>Daniel Acosta Soba</title>
+<ellipse fill="#202020" stroke="gray" cx="526.2" cy="-164" rx="87.97" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Daniel Acosta Soba</text>
+</g>
+<!-- Kisko&#45;&#45;Daniel Acosta Soba -->
+<g id="edge10" class="edge">
+<title>Kisko--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M38.21,-253.95C44.51,-223.53 61.99,-162.82 104.22,-137 226.68,-62.11 408.4,-117.72 486.85,-147.9"></path>
+</g>
+<!-- Antonio Fernández Romero -->
+<g id="node11" class="node">
+<title>Antonio Fernández Romero</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-72" rx="119.28" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-67.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Antonio Fernández Romero</text>
+</g>
+<!-- Kisko&#45;&#45;Antonio Fernández Romero -->
+<g id="edge12" class="edge">
+<title>Kisko--Antonio Fernández Romero</title>
+<path fill="none" stroke="white" d="M37.13,-253.9C41.99,-219.24 57.64,-143.43 104.22,-104 116.12,-93.93 130.55,-86.86 145.58,-81.94"></path>
+</g>
+<!-- André Correa Vianna Filho -->
+<g id="node12" class="node">
+<title>André Correa Vianna Filho</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-18" rx="117.52" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-13.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">André Correa Vianna Filho</text>
+</g>
+<!-- Kisko&#45;&#45;André Correa Vianna Filho -->
+<g id="edge13" class="edge">
+<title>Kisko--André Correa Vianna Filho</title>
+<path fill="none" stroke="white" d="M34.78,-253.71C35.06,-210.36 42.21,-100.81 104.22,-45 113.97,-36.22 125.69,-29.92 138.15,-25.44"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge4" class="edge">
+<title>Mª Ángeles Rodríguez Bellido--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M377.58,-472C392.56,-472 407.66,-472 422.2,-472"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván&#45;&#45;Daniel Acosta Soba -->
+<g id="edge11" class="edge">
+<title>J. Rafael Rodríguez Galván--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M365.79,-164C390.19,-164 415.41,-164 438.4,-164"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><img data-src="fotos/18-Philadelphia-NY-Giordano.jpg" class="absolute" style="transform: rotate(0deg);top: 20px; left: 520px; width: 500px; "></p>
+</section>
+<section id="section-46" class="slide level2" data-transition="fade">
+<h2></h2>
+<div class="cell" data-fig-width="10" data-fig-height="7" data-layout-align="left">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="672" viewbox="0.00 0.00 638.03 552.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto 0">
+<g id="graph0" class="graph" transform="scale(0.972222 0.972222) rotate(0) translate(4 548)">
+<title>K</title>
+<polygon fill="#192119" stroke="transparent" points="-4,4 -4,-548 634.03,-548 634.03,4 -4,4"></polygon>
+<!-- Kisko -->
+<g id="node1" class="node">
+<title>Kisko</title>
+<ellipse fill="lightgreen" stroke="gray" cx="34.11" cy="-272" rx="34.22" ry="18"></ellipse>
+<text text-anchor="middle" x="34.11" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Kisko</text>
+</g>
+<!-- Rubens Robles Ortega -->
+<g id="node2" class="node">
+<title>Rubens Robles Ortega</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-526" rx="97.87" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-521.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Rubens Robles Ortega</text>
+</g>
+<!-- Kisko&#45;&#45;Rubens Robles Ortega -->
+<g id="edge1" class="edge">
+<title>Kisko--Rubens Robles Ortega</title>
+<path fill="none" stroke="white" d="M34.78,-290.29C35.06,-333.64 42.21,-443.19 104.22,-499 116.92,-510.43 132.95,-517.66 149.59,-522.13"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido -->
+<g id="node3" class="node">
+<title>Mª Ángeles Rodríguez Bellido</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-472" rx="132" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mª Ángeles Rodríguez Bellido</text>
+</g>
+<!-- Kisko&#45;&#45;Mª Ángeles Rodríguez Bellido -->
+<g id="edge2" class="edge">
+<title>Kisko--Mª Ángeles Rodríguez Bellido</title>
+<path fill="none" stroke="white" d="M37.13,-290.1C41.99,-324.76 57.64,-400.57 104.22,-440 115.07,-449.19 128.03,-455.87 141.63,-460.71"></path>
+</g>
+<!-- Diego A. Rueda Gómez -->
+<g id="node4" class="node">
+<title>Diego A. Rueda Gómez</title>
+<ellipse fill="#202020" stroke="gray" cx="526.2" cy="-472" rx="103.65" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Diego A. Rueda Gómez</text>
+</g>
+<!-- Kisko&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge3" class="edge">
+<title>Kisko--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M38.7,-289.94C45.67,-319.64 64.02,-378.56 104.22,-407 155.86,-443.54 323.95,-434.73 386.38,-445 410,-448.88 435.76,-453.73 458.61,-458.23"></path>
+</g>
+<!-- Francisco P. Marques Lopes -->
+<g id="node5" class="node">
+<title>Francisco P. Marques Lopes</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-380" rx="120.99" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-375.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Francisco P. Marques Lopes</text>
+</g>
+<!-- Kisko&#45;&#45;Francisco P. Marques Lopes -->
+<g id="edge5" class="edge">
+<title>Kisko--Francisco P. Marques Lopes</title>
+<path fill="none" stroke="white" d="M44.9,-289.27C56.52,-308.08 77.7,-337.56 104.22,-353 116.84,-360.35 131.09,-365.75 145.54,-369.71"></path>
+</g>
+<!-- Juan Vicente Gutiérrez Santacreu -->
+<g id="node6" class="node">
+<title>Juan Vicente Gutiérrez Santacreu</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-326" rx="141.16" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-321.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Juan Vicente Gutiérrez Santacreu</text>
+</g>
+<!-- Kisko&#45;&#45;Juan Vicente Gutiérrez Santacreu -->
+<g id="edge6" class="edge">
+<title>Kisko--Juan Vicente Gutiérrez Santacreu</title>
+<path fill="none" stroke="white" d="M60.97,-283.4C73.79,-288.71 89.62,-294.78 104.22,-299 121.35,-303.95 139.92,-308.26 157.78,-311.88"></path>
+</g>
+<!-- M. Victoria Redondo Neble -->
+<g id="node7" class="node">
+<title>M. Victoria Redondo Neble</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-272" rx="118.69" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">M. Victoria Redondo Neble</text>
+</g>
+<!-- Kisko&#45;&#45;M. Victoria Redondo Neble -->
+<g id="edge7" class="edge">
+<title>Kisko--M. Victoria Redondo Neble</title>
+<path fill="none" stroke="white" d="M68.26,-272C84.38,-272 104.85,-272 126.09,-272"></path>
+</g>
+<!-- Giordano Tierra Chica -->
+<g id="node8" class="node">
+<title>Giordano Tierra Chica</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-218" rx="98.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-213.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Giordano Tierra Chica</text>
+</g>
+<!-- Kisko&#45;&#45;Giordano Tierra Chica -->
+<g id="edge8" class="edge">
+<title>Kisko--Giordano Tierra Chica</title>
+<path fill="none" stroke="white" d="M60.97,-260.6C73.79,-255.29 89.62,-249.22 104.22,-245 125.39,-238.88 148.78,-233.75 170.27,-229.66"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván -->
+<g id="node9" class="node">
+<title>J. Rafael Rodríguez Galván</title>
+<ellipse fill="#ffd0a0" stroke="gray" cx="245.3" cy="-164" rx="120.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">J. Rafael Rodríguez Galván</text>
+</g>
+<!-- Kisko&#45;&#45;J. Rafael Rodríguez Galván -->
+<g id="edge9" class="edge">
+<title>Kisko--J. Rafael Rodríguez Galván</title>
+<path fill="none" stroke="white" d="M44.9,-254.73C56.52,-235.92 77.7,-206.44 104.22,-191 116.95,-183.58 131.33,-178.16 145.91,-174.19"></path>
+</g>
+<!-- Daniel Acosta Soba -->
+<g id="node10" class="node">
+<title>Daniel Acosta Soba</title>
+<ellipse fill="#202020" stroke="gray" cx="526.2" cy="-164" rx="87.97" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Daniel Acosta Soba</text>
+</g>
+<!-- Kisko&#45;&#45;Daniel Acosta Soba -->
+<g id="edge10" class="edge">
+<title>Kisko--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M38.21,-253.95C44.51,-223.53 61.99,-162.82 104.22,-137 226.68,-62.11 408.4,-117.72 486.85,-147.9"></path>
+</g>
+<!-- Antonio Fernández Romero -->
+<g id="node11" class="node">
+<title>Antonio Fernández Romero</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-72" rx="119.28" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-67.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Antonio Fernández Romero</text>
+</g>
+<!-- Kisko&#45;&#45;Antonio Fernández Romero -->
+<g id="edge12" class="edge">
+<title>Kisko--Antonio Fernández Romero</title>
+<path fill="none" stroke="white" d="M37.13,-253.9C41.99,-219.24 57.64,-143.43 104.22,-104 116.12,-93.93 130.55,-86.86 145.58,-81.94"></path>
+</g>
+<!-- André Correa Vianna Filho -->
+<g id="node12" class="node">
+<title>André Correa Vianna Filho</title>
+<ellipse fill="#202020" stroke="gray" cx="245.3" cy="-18" rx="117.52" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-13.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">André Correa Vianna Filho</text>
+</g>
+<!-- Kisko&#45;&#45;André Correa Vianna Filho -->
+<g id="edge13" class="edge">
+<title>Kisko--André Correa Vianna Filho</title>
+<path fill="none" stroke="white" d="M34.78,-253.71C35.06,-210.36 42.21,-100.81 104.22,-45 113.97,-36.22 125.69,-29.92 138.15,-25.44"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge4" class="edge">
+<title>Mª Ángeles Rodríguez Bellido--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M377.58,-472C392.56,-472 407.66,-472 422.2,-472"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván&#45;&#45;Daniel Acosta Soba -->
+<g id="edge11" class="edge">
+<title>J. Rafael Rodríguez Galván--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M365.79,-164C390.19,-164 415.41,-164 438.4,-164"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><img data-src="fotos/Rafa+Kisko.jpg" class="absolute" style="transform: rotate(2deg);top: 90px; left: 550px; width: 520px; "></p>
+</section>
+<section id="section-47" class="slide level2" data-auto-animate="true," data-transition="fade">
+<h2 data-id="quarto-animate-title"></h2>
+<div class="slide" data-vertical-align="bottom">
+<div class="cell" data-fig-width="10" data-fig-height="7" data-layout-align="left">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="672" viewbox="0.00 0.00 638.03 552.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto 0">
+<g id="graph0" class="graph" transform="scale(0.972222 0.972222) rotate(0) translate(4 548)">
+<title>K</title>
+<polygon fill="#192119" stroke="transparent" points="-4,4 -4,-548 634.03,-548 634.03,4 -4,4"></polygon>
+<!-- Kisko -->
+<g id="node1" class="node">
+<title>Kisko</title>
+<ellipse fill="lightgreen" stroke="#202020" cx="34.11" cy="-272" rx="34.22" ry="18"></ellipse>
+<text text-anchor="middle" x="34.11" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Kisko</text>
+</g>
+<!-- Rubens Robles Ortega -->
+<g id="node2" class="node">
+<title>Rubens Robles Ortega</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-526" rx="97.87" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-521.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Rubens Robles Ortega</text>
+</g>
+<!-- Kisko&#45;&#45;Rubens Robles Ortega -->
+<g id="edge1" class="edge">
+<title>Kisko--Rubens Robles Ortega</title>
+<path fill="none" stroke="white" d="M34.78,-290.29C35.06,-333.64 42.21,-443.19 104.22,-499 116.92,-510.43 132.95,-517.66 149.59,-522.13"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido -->
+<g id="node3" class="node">
+<title>Mª Ángeles Rodríguez Bellido</title>
+<ellipse fill="#303030" stroke="#202020" cx="245.3" cy="-472" rx="132" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mª Ángeles Rodríguez Bellido</text>
+</g>
+<!-- Kisko&#45;&#45;Mª Ángeles Rodríguez Bellido -->
+<g id="edge2" class="edge">
+<title>Kisko--Mª Ángeles Rodríguez Bellido</title>
+<path fill="none" stroke="white" d="M37.13,-290.1C41.99,-324.76 57.64,-400.57 104.22,-440 115.07,-449.19 128.03,-455.87 141.63,-460.71"></path>
+</g>
+<!-- Diego A. Rueda Gómez -->
+<g id="node4" class="node">
+<title>Diego A. Rueda Gómez</title>
+<ellipse fill="#effff8" stroke="#202020" cx="526.2" cy="-472" rx="103.65" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Diego A. Rueda Gómez</text>
+</g>
+<!-- Kisko&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge3" class="edge">
+<title>Kisko--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M38.7,-289.94C45.67,-319.64 64.02,-378.56 104.22,-407 155.86,-443.54 323.95,-434.73 386.38,-445 410,-448.88 435.76,-453.73 458.61,-458.23"></path>
+</g>
+<!-- Francisco P. Marques Lopes -->
+<g id="node5" class="node">
+<title>Francisco P. Marques Lopes</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-380" rx="120.99" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-375.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Francisco P. Marques Lopes</text>
+</g>
+<!-- Kisko&#45;&#45;Francisco P. Marques Lopes -->
+<g id="edge5" class="edge">
+<title>Kisko--Francisco P. Marques Lopes</title>
+<path fill="none" stroke="white" d="M44.9,-289.27C56.52,-308.08 77.7,-337.56 104.22,-353 116.84,-360.35 131.09,-365.75 145.54,-369.71"></path>
+</g>
+<!-- Juan Vicente Gutiérrez Santacreu -->
+<g id="node6" class="node">
+<title>Juan Vicente Gutiérrez Santacreu</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-326" rx="141.16" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-321.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Juan Vicente Gutiérrez Santacreu</text>
+</g>
+<!-- Kisko&#45;&#45;Juan Vicente Gutiérrez Santacreu -->
+<g id="edge6" class="edge">
+<title>Kisko--Juan Vicente Gutiérrez Santacreu</title>
+<path fill="none" stroke="white" d="M60.97,-283.4C73.79,-288.71 89.62,-294.78 104.22,-299 121.35,-303.95 139.92,-308.26 157.78,-311.88"></path>
+</g>
+<!-- M. Victoria Redondo Neble -->
+<g id="node7" class="node">
+<title>M. Victoria Redondo Neble</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-272" rx="118.69" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">M. Victoria Redondo Neble</text>
+</g>
+<!-- Kisko&#45;&#45;M. Victoria Redondo Neble -->
+<g id="edge7" class="edge">
+<title>Kisko--M. Victoria Redondo Neble</title>
+<path fill="none" stroke="white" d="M68.26,-272C84.38,-272 104.85,-272 126.09,-272"></path>
+</g>
+<!-- Giordano Tierra Chica -->
+<g id="node8" class="node">
+<title>Giordano Tierra Chica</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-218" rx="98.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-213.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Giordano Tierra Chica</text>
+</g>
+<!-- Kisko&#45;&#45;Giordano Tierra Chica -->
+<g id="edge8" class="edge">
+<title>Kisko--Giordano Tierra Chica</title>
+<path fill="none" stroke="white" d="M60.97,-260.6C73.79,-255.29 89.62,-249.22 104.22,-245 125.39,-238.88 148.78,-233.75 170.27,-229.66"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván -->
+<g id="node9" class="node">
+<title>J. Rafael Rodríguez Galván</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-164" rx="120.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">J. Rafael Rodríguez Galván</text>
+</g>
+<!-- Kisko&#45;&#45;J. Rafael Rodríguez Galván -->
+<g id="edge9" class="edge">
+<title>Kisko--J. Rafael Rodríguez Galván</title>
+<path fill="none" stroke="white" d="M44.9,-254.73C56.52,-235.92 77.7,-206.44 104.22,-191 116.95,-183.58 131.33,-178.16 145.91,-174.19"></path>
+</g>
+<!-- Daniel Acosta Soba -->
+<g id="node10" class="node">
+<title>Daniel Acosta Soba</title>
+<ellipse fill="#202020" stroke="#202020" cx="526.2" cy="-164" rx="87.97" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Daniel Acosta Soba</text>
+</g>
+<!-- Kisko&#45;&#45;Daniel Acosta Soba -->
+<g id="edge10" class="edge">
+<title>Kisko--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M38.21,-253.95C44.51,-223.53 61.99,-162.82 104.22,-137 226.68,-62.11 408.4,-117.72 486.85,-147.9"></path>
+</g>
+<!-- Antonio Fernández Romero -->
+<g id="node11" class="node">
+<title>Antonio Fernández Romero</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-72" rx="119.28" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-67.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Antonio Fernández Romero</text>
+</g>
+<!-- Kisko&#45;&#45;Antonio Fernández Romero -->
+<g id="edge12" class="edge">
+<title>Kisko--Antonio Fernández Romero</title>
+<path fill="none" stroke="white" d="M37.13,-253.9C41.99,-219.24 57.64,-143.43 104.22,-104 116.12,-93.93 130.55,-86.86 145.58,-81.94"></path>
+</g>
+<!-- André Correa Vianna Filho -->
+<g id="node12" class="node">
+<title>André Correa Vianna Filho</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-18" rx="117.52" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-13.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">André Correa Vianna Filho</text>
+</g>
+<!-- Kisko&#45;&#45;André Correa Vianna Filho -->
+<g id="edge13" class="edge">
+<title>Kisko--André Correa Vianna Filho</title>
+<path fill="none" stroke="white" d="M34.78,-253.71C35.06,-210.36 42.21,-100.81 104.22,-45 113.97,-36.22 125.69,-29.92 138.15,-25.44"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge4" class="edge">
+<title>Mª Ángeles Rodríguez Bellido--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M377.58,-472C392.56,-472 407.66,-472 422.2,-472"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván&#45;&#45;Daniel Acosta Soba -->
+<g id="edge11" class="edge">
+<title>J. Rafael Rodríguez Galván--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M365.79,-164C390.19,-164 415.41,-164 438.4,-164"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><img data-src="fotos/Diego+Kisko.jpg" class="absolute" style="transform: rotate(0deg);top: 150px; left: 380px; width: 430px; height: 500px; "></p>
+</div>
+</section>
+<section id="section-48" class="slide level2" data-auto-animate="true," data-transition="fade">
+<h2 data-id="quarto-animate-title"></h2>
+<div class="slide" data-vertical-align="bottom">
+<div class="cell" data-fig-width="10" data-fig-height="7" data-layout-align="left">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="672" viewbox="0.00 0.00 638.03 552.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto 0">
+<g id="graph0" class="graph" transform="scale(0.972222 0.972222) rotate(0) translate(4 548)">
+<title>K</title>
+<polygon fill="#192119" stroke="transparent" points="-4,4 -4,-548 634.03,-548 634.03,4 -4,4"></polygon>
+<!-- Kisko -->
+<g id="node1" class="node">
+<title>Kisko</title>
+<ellipse fill="lightgreen" stroke="#202020" cx="34.11" cy="-272" rx="34.22" ry="18"></ellipse>
+<text text-anchor="middle" x="34.11" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Kisko</text>
+</g>
+<!-- Rubens Robles Ortega -->
+<g id="node2" class="node">
+<title>Rubens Robles Ortega</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-526" rx="97.87" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-521.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Rubens Robles Ortega</text>
+</g>
+<!-- Kisko&#45;&#45;Rubens Robles Ortega -->
+<g id="edge1" class="edge">
+<title>Kisko--Rubens Robles Ortega</title>
+<path fill="none" stroke="white" d="M34.78,-290.29C35.06,-333.64 42.21,-443.19 104.22,-499 116.92,-510.43 132.95,-517.66 149.59,-522.13"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido -->
+<g id="node3" class="node">
+<title>Mª Ángeles Rodríguez Bellido</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-472" rx="132" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mª Ángeles Rodríguez Bellido</text>
+</g>
+<!-- Kisko&#45;&#45;Mª Ángeles Rodríguez Bellido -->
+<g id="edge2" class="edge">
+<title>Kisko--Mª Ángeles Rodríguez Bellido</title>
+<path fill="none" stroke="white" d="M37.13,-290.1C41.99,-324.76 57.64,-400.57 104.22,-440 115.07,-449.19 128.03,-455.87 141.63,-460.71"></path>
+</g>
+<!-- Diego A. Rueda Gómez -->
+<g id="node4" class="node">
+<title>Diego A. Rueda Gómez</title>
+<ellipse fill="#202020" stroke="#202020" cx="526.2" cy="-472" rx="103.65" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-467.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Diego A. Rueda Gómez</text>
+</g>
+<!-- Kisko&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge3" class="edge">
+<title>Kisko--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M38.7,-289.94C45.67,-319.64 64.02,-378.56 104.22,-407 155.86,-443.54 323.95,-434.73 386.38,-445 410,-448.88 435.76,-453.73 458.61,-458.23"></path>
+</g>
+<!-- Francisco P. Marques Lopes -->
+<g id="node5" class="node">
+<title>Francisco P. Marques Lopes</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-380" rx="120.99" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-375.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Francisco P. Marques Lopes</text>
+</g>
+<!-- Kisko&#45;&#45;Francisco P. Marques Lopes -->
+<g id="edge5" class="edge">
+<title>Kisko--Francisco P. Marques Lopes</title>
+<path fill="none" stroke="white" d="M44.9,-289.27C56.52,-308.08 77.7,-337.56 104.22,-353 116.84,-360.35 131.09,-365.75 145.54,-369.71"></path>
+</g>
+<!-- Juan Vicente Gutiérrez Santacreu -->
+<g id="node6" class="node">
+<title>Juan Vicente Gutiérrez Santacreu</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-326" rx="141.16" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-321.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Juan Vicente Gutiérrez Santacreu</text>
+</g>
+<!-- Kisko&#45;&#45;Juan Vicente Gutiérrez Santacreu -->
+<g id="edge6" class="edge">
+<title>Kisko--Juan Vicente Gutiérrez Santacreu</title>
+<path fill="none" stroke="white" d="M60.97,-283.4C73.79,-288.71 89.62,-294.78 104.22,-299 121.35,-303.95 139.92,-308.26 157.78,-311.88"></path>
+</g>
+<!-- M. Victoria Redondo Neble -->
+<g id="node7" class="node">
+<title>M. Victoria Redondo Neble</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-272" rx="118.69" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-267.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">M. Victoria Redondo Neble</text>
+</g>
+<!-- Kisko&#45;&#45;M. Victoria Redondo Neble -->
+<g id="edge7" class="edge">
+<title>Kisko--M. Victoria Redondo Neble</title>
+<path fill="none" stroke="white" d="M68.26,-272C84.38,-272 104.85,-272 126.09,-272"></path>
+</g>
+<!-- Giordano Tierra Chica -->
+<g id="node8" class="node">
+<title>Giordano Tierra Chica</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-218" rx="98.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-213.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Giordano Tierra Chica</text>
+</g>
+<!-- Kisko&#45;&#45;Giordano Tierra Chica -->
+<g id="edge8" class="edge">
+<title>Kisko--Giordano Tierra Chica</title>
+<path fill="none" stroke="white" d="M60.97,-260.6C73.79,-255.29 89.62,-249.22 104.22,-245 125.39,-238.88 148.78,-233.75 170.27,-229.66"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván -->
+<g id="node9" class="node">
+<title>J. Rafael Rodríguez Galván</title>
+<ellipse fill="#303030" stroke="#202020" cx="245.3" cy="-164" rx="120.4" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">J. Rafael Rodríguez Galván</text>
+</g>
+<!-- Kisko&#45;&#45;J. Rafael Rodríguez Galván -->
+<g id="edge9" class="edge">
+<title>Kisko--J. Rafael Rodríguez Galván</title>
+<path fill="none" stroke="white" d="M44.9,-254.73C56.52,-235.92 77.7,-206.44 104.22,-191 116.95,-183.58 131.33,-178.16 145.91,-174.19"></path>
+</g>
+<!-- Daniel Acosta Soba -->
+<g id="node10" class="node">
+<title>Daniel Acosta Soba</title>
+<ellipse fill="#a8aa98" stroke="#202020" cx="526.2" cy="-164" rx="87.97" ry="18"></ellipse>
+<text text-anchor="middle" x="526.2" y="-159.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Daniel Acosta Soba</text>
+</g>
+<!-- Kisko&#45;&#45;Daniel Acosta Soba -->
+<g id="edge10" class="edge">
+<title>Kisko--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M38.21,-253.95C44.51,-223.53 61.99,-162.82 104.22,-137 226.68,-62.11 408.4,-117.72 486.85,-147.9"></path>
+</g>
+<!-- Antonio Fernández Romero -->
+<g id="node11" class="node">
+<title>Antonio Fernández Romero</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-72" rx="119.28" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-67.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Antonio Fernández Romero</text>
+</g>
+<!-- Kisko&#45;&#45;Antonio Fernández Romero -->
+<g id="edge12" class="edge">
+<title>Kisko--Antonio Fernández Romero</title>
+<path fill="none" stroke="white" d="M37.13,-253.9C41.99,-219.24 57.64,-143.43 104.22,-104 116.12,-93.93 130.55,-86.86 145.58,-81.94"></path>
+</g>
+<!-- André Correa Vianna Filho -->
+<g id="node12" class="node">
+<title>André Correa Vianna Filho</title>
+<ellipse fill="#202020" stroke="#202020" cx="245.3" cy="-18" rx="117.52" ry="18"></ellipse>
+<text text-anchor="middle" x="245.3" y="-13.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">André Correa Vianna Filho</text>
+</g>
+<!-- Kisko&#45;&#45;André Correa Vianna Filho -->
+<g id="edge13" class="edge">
+<title>Kisko--André Correa Vianna Filho</title>
+<path fill="none" stroke="white" d="M34.78,-253.71C35.06,-210.36 42.21,-100.81 104.22,-45 113.97,-36.22 125.69,-29.92 138.15,-25.44"></path>
+</g>
+<!-- Mª Ángeles Rodríguez Bellido&#45;&#45;Diego A. Rueda Gómez -->
+<g id="edge4" class="edge">
+<title>Mª Ángeles Rodríguez Bellido--Diego A. Rueda Gómez</title>
+<path fill="none" stroke="white" d="M377.58,-472C392.56,-472 407.66,-472 422.2,-472"></path>
+</g>
+<!-- J. Rafael Rodríguez Galván&#45;&#45;Daniel Acosta Soba -->
+<g id="edge11" class="edge">
+<title>J. Rafael Rodríguez Galván--Daniel Acosta Soba</title>
+<path fill="none" stroke="white" d="M365.79,-164C390.19,-164 415.41,-164 438.4,-164"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><img data-src="fotos/Dani+Kisko.jpeg" class="absolute" style="transform: rotate(-2deg);top: 0em; left: 450px; width: 580px; "></p>
+</div>
+</section></section>
+<section id="conclusión" class="title-slide slide level1 center">
+<h1>Conclusión</h1>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>
