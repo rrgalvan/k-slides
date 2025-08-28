@@ -3,7 +3,7 @@ title: "K-Slides"
 format:
   revealjs
 
-theme: [night, style.scss]
+theme: [dark, style.scss]
 ---
 
 {{< include k-peque.qmd >}}
