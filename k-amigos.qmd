@@ -1,9 +1,10 @@
 # Excelence as a Researcher and as a Friend
 
-## {transition="fade"}
-![1996. EHF Oviedo](fotos/96-EHF-Oviedo-Grupo.jpeg){width="100%" fig-align="center"}
+## {.nostretch style="font-size:2.5em; text-align: center;" auto-animate=true}
+First Years in Spain
+![](fotos/96-EHF-Oviedo-Grupo.jpeg){width="40%" fig-align="center" style="margin-top: 160px;" }
 
-## {tkansition="fade"}
+## {auto-animate=true}
 ![1996. EHF Oviedo](fotos/k-96-EHF-Oviedo-Grupo.png){width="100%" fig-align="center"}
 
 ## {transition="fade"}
@@ -20,24 +21,62 @@
   style="transform: rotate(-8deg);"}
 ![](fotos/98-Zaragoza-MA.jpeg){.absolute left=330 top=310 width="50%" 
   style="transform: rotate(5deg);"}
+:::
 
+:::{style="margin-left: 100px; font-size: 0.65em;"}
 1998. Feria de Mairena + baile en Zaragoza
 :::
 
-## {auto-animate=true}
+
+## {transition="fade"}
 ::: {layout = "[[ 20, 80 ], [100]]"}
 ![1998. Talk on Oceanography](fotos/98-CharlaOceanografia-Facultad.jpeg){left=0 top=0 width="100%" }
 
 ![](fotos/k-98-Feria-Manolo-Chari-Rafa-Vicky.png){left=0 top=0 width="80%" 
   style="transform: rotate(-8deg);"}
-![](fotos/k-98-Zaragoza-MA.jpeg){.absolute left=330 top=310 width="50%" 
+![](fotos/k-98-Zaragoza-MA.jpeg){.absolute left=310 top=300 width="50%" 
   style="transform: rotate(5deg);"}
+:::
 
+:::{style="margin-left: 100px; font-size: 0.65em;"}
 1998. Feria de Mairena + baile en Zaragoza
 :::
 
-## 2009. Intensive School on Complex Fluids {transition="fade"}
-![](fotos/09-Congreso-Grupo.jpg){width="100%" }
+
+
+## {.nostretch style="font-size:2.5em; text-align: center;" auto-animate=true}
+French Colleagues
+![](fotos/07-Vivette-Julio-07.JPG){style="margin-top: 160px;" width="300" }
+
+
+## {auto-animate=true}
+![](fotos/07-Vivette-Julio-07.JPG){.absolute left=70 top=0 width="100%" }
+
+## {auto-animate=true}
+![](fotos/07-Vivette-Julio-07.JPG){.absolute left=70 top=0 width="100%" }
+![](fotos/23-Didier-MA.jpg){.absolute left=260 top=80 width="75%" 
+  style="transform: rotate(-8deg);"}
+![](fotos/14-TesisRafa-Pascal.JPG){.absolute left=00 top=0 width=330 
+  style="transform: rotate(3deg);"}
+
+## {transition="fade"}
+![](fotos/07-Vivette-Julio-07.JPG){.absolute left=70 top=0 width="100%" }
+![](fotos/23-Didier-MA.jpg){.absolute left=260 top=80 width="75%" 
+  style="transform: rotate(-8deg);"}
+![](fotos/14-TesisRafa-Pascal.JPG){.absolute left=00 top=0 width=330 
+  style="transform: rotate(3deg);"}
+![](fotos/24-Nantes-LU-Restaurant.jpg){.absolute left=120 top=0 width="80%" }
+![](fotos/25-junio-Nantes-Mazsen-Sarah.jpeg){.absolute left=10 top=220  width="650"
+  style="transform: rotate(-10deg);"}
+![](fotos/24-Mazen-FGG-Leray.jpg){.absolute left=620 top=350  width="50%"
+  style="transform: rotate(2deg);"}
+
+
+
+## {.nostretch style="font-size:2.1em; text-align: center;" auto-animate=true}
+Intensive School on Complex Fluids (2009)
+
+![](fotos/09-Congreso-Grupo.jpg){width="40%" fig-align="center" style="margin-top: 100px;" }
 
 ## {transition="fade"}
 ![2009. Intensive School on Complex Fluids](fotos/k-09-Congreso-Grupo.jpg){width="100%" }
@@ -59,31 +98,15 @@
 ![](fotos/09-Barco-Actuacion2.JPG){.absolute left=390 top=50 width="76%" 
   style="transform: rotate(5deg);"}
 
-## {transition="fade"}
-![](fotos/07-Vivette-Julio-07.JPG){.absolute left=70 top=0  width="100%" }
 
-## {transition="fade"}
-![](fotos/07-Vivette-Julio-07.JPG){.absolute left=70 top=0 width="100%" }
-![](fotos/23-Didier-MA.jpg){.absolute left=260 top=80 width="75%" 
-  style="transform: rotate(-8deg);"}
-![](fotos/14-TesisRafa-Pascal.JPG){.absolute left=00 top=0 width=330 
-  style="transform: rotate(3deg);"}
 
-## {transition="fade"}
-![](fotos/07-Vivette-Julio-07.JPG){.absolute left=70 top=0 width="100%" }
-![](fotos/23-Didier-MA.jpg){.absolute left=260 top=80 width="75%" 
-  style="transform: rotate(-8deg);"}
-![](fotos/14-TesisRafa-Pascal.JPG){.absolute left=00 top=0 width=330 
-  style="transform: rotate(3deg);"}
-![](fotos/24-Nantes-LU-Restaurant.jpg){.absolute left=120 top=0 width="80%" }
-![](fotos/25-junio-Nantes-Mazsen-Sarah.jpeg){.absolute left=10 top=220  width="650"
-  style="transform: rotate(-10deg);"}
-![](fotos/24-Mazen-FGG-Leray.jpg){.absolute left=620 top=350  width="50%"
-  style="transform: rotate(2deg);"}
+
+## {.nostretch style="font-size:2.2em; text-align: center;" auto-animate=true}
+Colleagues in America: USA, Brazil... and Chile!
+![](fotos/07-Vivette-Julio-07.JPG){style="margin-top: 120px; margin-left: 300px; margin-right: 300px;" width="300" }
 
 
 ## {auto-animate=true}
-
 :::{.absolute left=0 top=0 width="66%" style="transform: rotate(2deg);"}
 ![2009. Cordoba, José Luiz Boldrini](fotos/09-Cordoba-Boldrini-MA.jpg)
 :::
@@ -91,3 +114,4 @@
 :::{.absolute left=50% top=10% width="66%" style="transform: rotate(-2deg);"}
 ![2009. Ronquillo, Marko A. Rojas Medar](fotos/09-Ronquillo-Marko-MA.jpg)
 :::
+

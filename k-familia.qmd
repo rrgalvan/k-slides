@@ -1,6 +1,16 @@
 # Familia
 
 ## {transition="fade"}
+![](fotos/Kisko+Julio.jpg){.absolute left=0 top=0 width="66%" }
+![](fotos/Alejandro+Cori.jpg){.absolute left=300 top=110 width="66%" 
+  style="transform: rotate(5deg);"}
+}
+
+:::{.absolute left=0 bottom=0 style="font-size: 0.95em;"}
+Kisko, Julio, Alejandro, Cori
+:::
+
+## {transition="fade"}
 ![2009. Gabriela, Cori, Julio, Chari, K, Alejandro](fotos/09-FadoChari-Gabriela.png)
 
 ## {transition="fade"}

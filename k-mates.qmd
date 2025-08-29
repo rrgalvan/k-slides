@@ -67,7 +67,9 @@
 ::: {.column width="65%"}
   - M.S. & Assistant Professor
   - Start Ph. D. thesis, traveling and making friends
-  - 1992: Completion of ***Ph. D. thesis***
+  - 1992: Completion of ***Ph. D. thesis*** [^1]
+   
+[^1]: "Nuevos resultados sobre el problema de Navier-Stokes con densidad variable y algunas variantes"
 :::
 
 ::::
@@ -96,8 +98,9 @@
   - M.S. & Assistant Professor
   - Start Ph. D.
   - Start traveling and making friends
-  - 1992: Completion of ***Ph. D. thesis***
+  - 1992: Completion of *Ph. D. thesis*
   - 2009: Appointment as ***Full Proffessor***
+
 :::
 
 ::::
