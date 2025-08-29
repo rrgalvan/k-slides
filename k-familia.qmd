@@ -1,6 +1,22 @@
 # Familia
 
 ## {transition="fade"}
+
+:::{.content-hidden}
+![](fotos/5-familia.jpeg){.absolute left=90 top=30 width="78%" 
+  style="transform: rotate(5deg);"
+}
+:::
+![](fotos/3-madre.jpeg){.absolute left=0 top=0 width="45%" }
+![](fotos/4-familia.jpeg){.absolute left=300 top=180 width="66%" 
+  style="transform: rotate(-4deg);"
+}
+
+:::{.absolute left=0 bottom=0 style="font-size: 0.75em;"}
+Mother and Familiy
+:::
+
+## {transition="fade"}
 ![](fotos/Kisko+Julio.jpg){.absolute left=0 top=0 width="66%" }
 ![](fotos/Alejandro+Cori.jpg){.absolute left=300 top=110 width="66%" 
   style="transform: rotate(5deg);"}
